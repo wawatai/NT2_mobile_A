@@ -557,13 +557,38 @@ header .editBtn {
   background-size: contain;
 }
 
+.operate .deposit_ic {
+  background: url("../images/icon/svg/ope_deposit.svg") no-repeat;
+  background-size: contain;
+}
+
+.operate .transfer_ic {
+  background: url("../images/icon/svg/ope_transfer.svg") no-repeat;
+  background-size: contain;
+}
+
+.operate .withdrawal_ic {
+  background: url("../images/icon/svg/ope_withdrawal.svg") no-repeat;
+  background-size: contain;
+}
+
+.operate .vip_ic {
+  background: url("../images/icon/ope_vip.png") no-repeat;
+  background-size: contain;
+}
+
+header {
+  background: url("../images/headerBG.png") no-repeat;
+  background-size: cover;
+}
+
 header .logo {
   width: 58px;
   height: 26px;
 }
 
 .single-item {
-  width: 97vw;
+  width: 100%;
   height: 43.73vw;
 }
 .single-item img {
@@ -574,8 +599,7 @@ header .logo {
 }
 
 .homeCenter .gameBox img {
-  width: 28.27vw;
-  height: 17.4vw;
+  width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -746,7 +770,6 @@ html body header .content {
           align-items: center;
   width: 100%;
   height: 45px;
-  background: #e11515;
   padding: 0 14px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -837,13 +860,10 @@ html body .ad {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 8px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
 html body .ad .single-item {
-  border-radius: 1.5vw;
-  overflow: hidden;
   margin: 0;
 }
 html body .ad .single-item .slick-list {
@@ -1070,24 +1090,20 @@ html body .memberArea .operate .btnBox {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 5%;
+  padding: 0 8%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 html body .memberArea .operate .btnBox button {
-  width: 40px;
-  height: 40px;
-  background: radial-gradient(circle, #cca172 40%, #f1d7b7 100%);
-  -webkit-box-shadow: 1px 2px 4px 1px #96969666;
-          box-shadow: 1px 2px 4px 1px #96969666;
-  border: solid 1px #cca172;
-  font-size: 21px;
-  font-weight: bold;
-  color: #ffffff;
-  border-radius: 50%;
+  width: auto;
+  height: auto;
+  background: none;
 }
-html body .memberArea .operate .btnBox button.vipBtn {
-  font-size: 15px;
+html body .memberArea .operate .btnBox button i {
+  display: block;
+  width: 7vw;
+  height: 7vw;
+  margin-bottom: 1vw;
 }
 html body .homeCenter {
   width: 100%;
@@ -1117,9 +1133,11 @@ html body .homeCenter .gameList {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 html body .homeCenter .gameList li {
-  width: 25.6vw;
+  width: 18vw;
   height: 20%;
   margin-bottom: 3px;
   display: -webkit-box;
@@ -1140,11 +1158,11 @@ html body .homeCenter .gameList li.slotBtn div, html body .homeCenter .gameList 
   padding: 0 9px 0px 8px;
 }
 html body .homeCenter .gameList li.active div p {
-  color: #ad8047;
+  color: #e11515;
 }
 html body .homeCenter .gameList li div {
   width: 94%;
-  height: 88%;
+  height: 94%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0 16px 0 11px;
@@ -1154,9 +1172,13 @@ html body .homeCenter .gameList li div {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border-radius: 1.5vw;
   border: solid 1px #e6e6e6;
   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f2f2f2));
@@ -1168,61 +1190,92 @@ html body .homeCenter .gameList li div p {
 }
 html body .homeCenter .gameList li div i {
   display: block;
-  width: 6.4vw;
-  height: 6.4vw;
+  width: 8vw;
+  height: 8vw;
+  margin-bottom: 2vw;
 }
 html body .homeCenter .gameList li div i.slot_ic {
-  width: 30px;
-  height: 16px;
+  width: 9vw;
+  height: 5vw;
+}
+html body .homeCenter .gameList li div i.live_ic {
+  height: 7vw;
 }
 html body .homeCenter .gameList li div i.fish_ic {
-  width: 8vw;
+  width: 9vw;
   height: 4.27vw;
 }
 html body .homeCenter .gameBox {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 63.3vw;
+  width: 100%;
   height: auto;
   display: none;
+  overflow-y: auto;
+  -ms-grid-columns: (1fr)[1];
+  grid-template-columns: repeat(1, 1fr);
   -ms-flex-line-pack: start;
       align-content: flex-start;
-  overflow-y: auto;
+  font-size: 0;
 }
 html body .homeCenter .gameBox.display {
+  display: -ms-grid;
+  display: grid;
+}
+html body .homeCenter .gameBox.twins {
+  -ms-grid-columns: 1fr 0 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 6vw 0;
+}
+html body .homeCenter .gameBox.twins li p {
+  right: 0;
+  bottom: -4vw;
+  width: 100%;
+  font-size: 3.7vw;
+  text-align: center;
+}
+html body .homeCenter .gameBox li {
+  width: auto;
+  height: auto;
+  position: relative;
+}
+html body .homeCenter .gameBox li.fixing {
+  pointer-events: none;
+}
+html body .homeCenter .gameBox li.fixing .fixBox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-html body .homeCenter .gameBox li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+html body .homeCenter .gameBox li .fixBox {
+  display: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: solid 1px #e6e6e6;
-  border-radius: 1.5vw;
-  width: 30.4vw;
-  height: 23.2vw;
-  padding-top: 3px;
-  margin: 0 4px 5px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #00000066;
+  border-radius: 5px;
 }
-html body .homeCenter .gameBox li:nth-of-type(2n) {
-  margin-right: 0;
+html body .homeCenter .gameBox li .fixBox p {
+  color: #ffffff;
+  font-size: 7vw;
+  font-weight: bold;
 }
-html body .homeCenter .gameBox li img {
-  border-radius: 1.5vw;
-  border: solid 1px #e6e6e6;
-}
-html body .homeCenter .gameBox li p {
-  font-size: 12px;
-  color: #808080;
-  padding-top: 0.9vw;
+html body .homeCenter .gameBox li > p {
+  position: absolute;
+  right: 9vw;
+  bottom: 6vw;
+  width: auto;
+  color: #ebd495;
+  font-size: 3.7vw;
+  font-weight: bold;
+  text-shadow: 1px 2px 2px #332116, 1px -1px 2px #332116;
+  font-size: 5vw;
 }
 html body footer {
   width: 100%;
@@ -1265,7 +1318,7 @@ html body footer ul li {
   border-right: solid 1px #cccccc;
 }
 html body footer ul li.active p {
-  color: #ad8047;
+  color: #e11515;
 }
 html body footer ul li i {
   display: block;
@@ -1275,6 +1328,7 @@ html body footer ul li i {
 html body footer ul li p {
   font-size: 12px;
   color: #999999;
+  font-weight: bold;
   padding-top: 2px;
 }
 html body .filter {
@@ -2566,22 +2620,9 @@ html body .filter .bettingDetail .content .pageBox p {
 html body .filter .bettingDetail .content .pageBox p span {
   padding: 0 5px;
 }
-@media only screen and (max-width: 320px) {
-  html body .homeCenter .gameList li div {
-    padding: 0 !important;
-    -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
-  }
+@media only screen and (max-width: 375px) {
   html body .homeCenter .gameList li div i {
     display: none !important;
-  }
-  html body .operate .btnBox {
-    padding: 0 3% !important;
-  }
-  html body .operate .btnBox button {
-    width: 36px !important;
-    height: 36px !important;
   }
 }
 html body .slotWrap {

@@ -60,10 +60,22 @@
             <!--轉存提+vip-->
             <div class="operate">
                 <div class="btnBox">
-                    <button onclick="unlogin()">存</button>
-                    <button onclick="unlogin()">轉</button>
-                    <button onclick="unlogin()">提</button>
-                    <button class="vipBtn" onclick="unlogin()">VIP</button>
+                    <button onclick="unlogin()">
+                        <i class="deposit_ic"></i>
+                        存款
+                    </button>
+                    <button onclick="unlogin()">
+                        <i class="transfer_ic"></i>
+                        轉帳
+                    </button>
+                    <button onclick="unlogin()">
+                        <i class="withdrawal_ic"></i>
+                        提款
+                    </button>
+                    <button class="vipBtn" onclick="unlogin()">
+                        <i class="vip_ic"></i>
+                        VIP
+                    </button>
                 </div>
             </div>
         </div>
@@ -77,7 +89,7 @@
                         <p>老虎機</p>
                     </div>
                 </li>
-                <li class="fishBtn">
+                <li class="fishBtn" onclick="unlogin()">
                     <div>
                         <i class="fish_ic"></i>
                         <p>捕魚機</p>
@@ -101,7 +113,7 @@
                         <p>彩票</p>
                     </div>
                 </li>
-                <li class="boardBtn">
+                <li class="boardBtn" onclick="unlogin()">
                     <div>
                         <i class="board_ic"></i>
                         <p>棋牌</p>
@@ -112,71 +124,64 @@
             <ul class="gameBox slotBox display">
                 <li onclick="unlogin()">
                     <img src="./images/platform/slot/bng.png">
-                    <p>BNG娛樂</p>
+                    <p>BNG 電子娛樂</p>
                 </li>
-                <li onclick="unlogin()">
+                <li onclick="unlogin()" class="fixing">
                     <img src="./images/platform/slot/pls.png">
-                    <p>pls</p>
+                    <p>PLS 電子娛樂</p>
+                    <div class="fixBox">
+                        <p>維護中</p>
+                    </div>
                 </li>
                 <li onclick="unlogin()">
                     <img src="./images/platform/slot/simplePlay.png">
-                    <p>SimplePlay</p>
+                    <p>SP 電子娛樂</p>
                 </li>
                 <li onclick="unlogin()">
                     <img src="./images/platform/slot/rtg.png">
-                    <p>RTG</p>
+                    <p>RTG 電子娛樂</p>
                 </li>
                 <li onclick="unlogin()">
                     <img src="./images/platform/slot/ifun.png">
-                    <p>IFUN</p>
+                    <p>iFun 電子娛樂</p>
                 </li>
                 <li onclick="unlogin()">
                     <img src="./images/platform/slot/bwin.png">
-                    <p>必贏</p>
+                    <p>必贏 電子娛樂</p>
                 </li>
                 <li onclick="unlogin()">
                     <img src="./images/platform/slot/png.png">
-                    <p>PNG</p>
-                </li>
-            </ul>
-            <ul class="gameBox fishBox">
-                <li onclick="unlogin()">
-                    <img src="./images/platform/fish/fish_1.jpeg">
-                    <p>魚樂無窮</p>
+                    <p>PNG 電子娛樂</p>
                 </li>
                 <li onclick="unlogin()">
-                    <img src="./images/platform/fish/fish_2.jpeg">
-                    <p>捕魚</p>
+                    <img src="./images/platform/slot/gr.png">
+                    <p>好路棋牌</p>
                 </li>
                 <li onclick="unlogin()">
-                    <img src="./images/platform/fish/fish_3.jpg">
-                    <p>霸王虞姬</p>
-                </li>
-                <li onclick="unlogin()">
-                    <img src="./images/platform/fish/fish_4.jpg">
-                    <p>龍珠捕魚</p>
-                </li>
-                <li onclick="unlogin()">
-                    <img src="./images/platform/fish/fish_5.jpg">
-                    <p>中國神魔捕魚</p>
-                </li>
-                <li onclick="unlogin()">
-                    <img src="./images/platform/fish/fish_6.jpg">
-                    <p>中國神魔塔防</p>
-                </li>
-                <li onclick="unlogin()">
-                    <img src="./images/platform/fish/fish_6.jpg">
-                    <p>海龍王之八爪天下</p>
+                    <img src="./images/platform/slot/gr.png">
+                    <p>TC SLOT</p>
                 </li>
             </ul>
             <ul class="gameBox liveBox">
                 <li onclick="unlogin()">
                     <img src="./images/platform/live/allbet.png">
-                    <p>歐博</p>
+                    <p>歐博真人娛樂</p>
                 </li>
                 <li onclick="unlogin()">
                     <img src="./images/platform/live/wm.png">
-                    <p>WM</p>
+                    <p>WM真人娛樂</p>
+                </li>
+                <li onclick="unlogin()">
+                    <img src="./images/platform/live/sa.png">
+                    <p>沙龍真人娛樂</p>
+                </li>
+                <li onclick="unlogin()">
+                    <img src="./images/platform/live/og.png">
+                    <p>OG PLUS真人娛樂</p>
+                </li>
+                <li onclick="unlogin()">
+                    <img src="./images/platform/live/dg.png">
+                    <p>DG真人娛樂</p>
                 </li>
             </ul>
             <ul class="gameBox sportBox">
@@ -188,14 +193,18 @@
             <ul class="gameBox lotteryBox">
                 <li onclick="unlogin()">
                     <img src="./images/platform/lottery/SG.png">
-                    <p>SG</p>
+                    <p>SG88六合大樂539</p>
                 </li>
                 <li onclick="unlogin()">
                     <img src="./images/platform/lottery/GS.png">
-                    <p>GS</p>
+                    <p>京彩彩票</p>
+                </li>
+                <li onclick="unlogin()">
+                    <img src="./images/platform/lottery/rwd.png">
+                    <p>白鹿</p>
                 </li>
             </ul>
-            <ul class="gameBox boardBox">
+            <!-- <ul class="gameBox boardBox">
                 <li onclick="unlogin()">
                     <img src="./images/platform/board/board_1.jpeg">
                     <p>奪寶小靈猴</p>
@@ -276,7 +285,37 @@
                     <img src="./images/platform/board/board_1.jpeg">
                     <p>魔力小甜心賓果</p>
                 </li>
-            </ul>
+            </ul> -->
+            <!-- <ul class="gameBox fishBox">
+                <li onclick="unlogin()">
+                    <img src="./images/platform/fish/fish_1.jpeg">
+                    <p>魚樂無窮</p>
+                </li>
+                <li onclick="unlogin()">
+                    <img src="./images/platform/fish/fish_2.jpeg">
+                    <p>捕魚</p>
+                </li>
+                <li onclick="unlogin()">
+                    <img src="./images/platform/fish/fish_3.jpg">
+                    <p>霸王虞姬</p>
+                </li>
+                <li onclick="unlogin()">
+                    <img src="./images/platform/fish/fish_4.jpg">
+                    <p>龍珠捕魚</p>
+                </li>
+                <li onclick="unlogin()">
+                    <img src="./images/platform/fish/fish_5.jpg">
+                    <p>中國神魔捕魚</p>
+                </li>
+                <li onclick="unlogin()">
+                    <img src="./images/platform/fish/fish_6.jpg">
+                    <p>中國神魔塔防</p>
+                </li>
+                <li onclick="unlogin()">
+                    <img src="./images/platform/fish/fish_6.jpg">
+                    <p>海龍王之八爪天下</p>
+                </li>
+            </ul> -->
         </div>
     </main>
     <!--footer-->

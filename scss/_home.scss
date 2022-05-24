@@ -165,16 +165,19 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 0 5%;
+            padding: 0 8%;
             box-sizing: border-box;
 
             button {
-                width: 40px;
-                height: 40px;
-                @include buttonStyle_1;
-
-                &.vipBtn {
-                    font-size: 15px;
+                width: auto;
+                height: auto;
+                background: none;
+            
+                i {
+                    display: block;
+                    width: 7vw;
+                    height: 7vw;
+                    margin-bottom: 1vw;
                 }
             }
         }
@@ -199,9 +202,10 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        flex-shrink: 0;
 
         li {
-            width: 25.6vw;
+            width: 18vw;
             height: 20%;
             margin-bottom: 3px;
             display: flex;
@@ -223,19 +227,20 @@
                 div {
 
                     p {
-                        color: $font-color_4;
+                        color: $font-color_3;
                     }
                 }
             }
 
             div {
                 width: 94%;
-                height: 88%;
+                height: 94%;
                 box-sizing: border-box;
                 padding: 0 16px 0 11px;
                 display: flex;
                 align-items: center;
-                justify-content: space-between;
+                justify-content: center;
+                flex-direction: column;
                 border-radius: 1.5vw;
                 border: solid 1px $borderColor_1;
                 background: $linear_1;
@@ -247,16 +252,19 @@
 
                 i {
                     display: block;
-                    width: 6.4vw;
-                    height: 6.4vw;
+                    width: 8vw;
+                    height: 8vw;
+                    margin-bottom: 2vw;
 
                     &.slot_ic {
-                        width: 30px;
-                        height: 16px;
+                        width: 9vw;
+                        height: 5vw;
                     }
-
+                    &.live_ic {
+                        height: 7vw;
+                    }
                     &.fish_ic {
-                        width: 8vw;
+                        width: 9vw;
                         height: 4.27vw;
                     }
                 }
@@ -266,41 +274,92 @@
 
     //遊戲選擇
     .gameBox {
-        flex-wrap: wrap;
-        width: 63.3vw;
+        width: 100%;
         height: auto;
         display: none;
-        align-content: flex-start;
         overflow-y: auto;
+        grid-template-columns: repeat(1,1fr);
+        align-content: flex-start;
+        font-size: 0;
 
         &.display {
-            display: flex;
+            display: grid;
+        }
+
+        &.twins {
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 6vw 0;
+
+            li {
+
+                p {
+                    right: 0;
+                    bottom: -4vw;
+                    width: 100%;
+                    font-size: 3.7vw;
+                    text-align: center;
+                }
+            }
         }
 
         li {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            border: solid 1px $borderColor_1;
-            border-radius: 1.5vw;
-            width: 30.4vw;
-            height: 23.2vw;
-            padding-top: 3px;
-            margin: 0 4px 5px 0;
+            width: auto;
+            height: auto;
+            position: relative;
+            // border: solid 1px $borderColor_1;
+            // border-radius: 1.5vw;
+            // width: 30.4vw;
+            // height: 23.2vw;
+            // padding-top: 3px;
+            // margin: 0 4px 5px 0;
 
-            &:nth-of-type(2n) {
-                margin-right: 0;
+            // &:nth-of-type(2n) {
+            //     margin-right: 0;
+            // }
+
+            // img {
+            //     border-radius: 1.5vw;
+            //     border: solid 1px $borderColor_1;
+            // }
+
+            &.fixing {
+                pointer-events: none;
+
+                .fixBox {
+                    display: flex;
+                }
             }
 
-            img {
-                border-radius: 1.5vw;
-                border: solid 1px $borderColor_1;
+            .fixBox {
+                display: none;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                background: $backgroundColor_3;
+                border-radius: 5px;
+
+                p {
+                    color: $font-color_5;
+                    font-size: 7vw;
+                    font-weight: bold;
+                }
             }
 
-            p {
-                font-size: 12px;
-                color: $font-color_2;
-                padding-top: 0.9vw;
+            &>p {
+                position: absolute;
+                right: 9vw;
+                bottom: 6vw;
+                width: auto;
+                @include gameBox_Word;
+                font-size: 5vw;
+                // padding-top: 0.9vw;
+                // color: $font-color_2;
+                // font-size: 2vw;
+                // font-weight: bold;
             }
         }
     }

@@ -44,20 +44,17 @@ $linear_9: linear-gradient(135deg,#59e200 0%,#3cab08 55%,#60b857 100%);
 $linear_10: linear-gradient(135deg,#ffc600 0%,#d28b00 55%,#ffd665 100%);
 $linear_11: linear-gradient(to bottom, #ffe9f5 0%,#fffff2 100%);
 
+//gameBox p
+@mixin gameBox_Word {
+    color: #ebd495;
+    font-size: 3.7vw;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px #332116, 1px -1px 2px #332116;
+}
+
 
 ///////button↓
 
-
-//首頁轉存提+vip按鈕
-@mixin buttonStyle_1 {
-    background: radial-gradient(circle,#cca172 40%,#f1d7b7 100%);
-    box-shadow: 1px 2px 4px 1px #96969666;
-    border: solid 1px #cca172;
-    font-size: 21px;
-    font-weight: bold;
-    color: #ffffff;
-    border-radius: 50%;
-}
 
 //常用橘色漸層按鈕
 @mixin buttonStyle_2 {

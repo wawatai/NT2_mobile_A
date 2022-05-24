@@ -509,6 +509,30 @@ header .editBtn {
     background-size: contain;
 }
 
+//operate
+.operate .deposit_ic {
+    background: url('../images/icon/svg/ope_deposit.svg') no-repeat;
+    background-size: contain;
+}
+.operate .transfer_ic {
+    background: url('../images/icon/svg/ope_transfer.svg') no-repeat;
+    background-size: contain;
+}
+.operate .withdrawal_ic {
+    background: url('../images/icon/svg/ope_withdrawal.svg') no-repeat;
+    background-size: contain;
+}
+.operate .vip_ic {
+    background: url('../images/icon/ope_vip.png') no-repeat;
+    background-size: contain;
+}
+
+//header
+header {
+    background: url('../images/headerBG.png') no-repeat;
+    background-size: cover;
+}
+
 
 ////////img↓
 
@@ -521,7 +545,8 @@ header .logo {
 
 //ad - banner
 .single-item {
-    width: 97vw;
+    // width: 97vw;
+    width: 100%;
     height: 43.73vw;
 
     img {
@@ -533,8 +558,8 @@ header .logo {
 
 //home - 遊戲platform
 .homeCenter .gameBox img {
-    width: 28.27vw;
-    height: 17.4vw;
+    width: 100%;
+    // height: 17.4vw;
     object-fit: contain;
 }
 
