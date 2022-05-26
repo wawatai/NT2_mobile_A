@@ -78,22 +78,22 @@
         <div class="homeCenter">
             <!--遊戲種類選單-->
             <ul class="gameList">
-                <li class="slotBtn active">
+                <li class="liveBtn active">
+                    <div>
+                        <i class="live_ic"></i>
+                        <p>真人</p>
+                    </div>
+                </li>
+                <li class="slotBtn">
                     <div>
                         <i class="slot_ic"></i>
                         <p>老虎機</p>
                     </div>
                 </li>
-                <li class="fishBtn" onclick="window.location.href='./slotPage.html'">
+                <li class="fishBtn" onclick="window.location.href='./fishPage.html'">
                     <div>
                         <i class="fish_ic"></i>
                         <p>捕魚機</p>
-                    </div>
-                </li>
-                <li class="liveBtn">
-                    <div>
-                        <i class="live_ic"></i>
-                        <p>真人</p>
                     </div>
                 </li>
                 <li class="sportBtn">
@@ -102,21 +102,21 @@
                         <p>體育</p>
                     </div>
                 </li>
+                <li class="boardBtn" onclick="window.location.href='./boardPage.html'">
+                    <div>
+                        <i class="board_ic"></i>
+                        <p>棋牌</p>
+                    </div>
+                </li>
                 <li class="lotteryBtn">
                     <div>
                         <i class="lottery_ic"></i>
                         <p>彩票</p>
                     </div>
                 </li>
-                <li class="boardBtn" onclick="window.location.href='./slotPage.html'">
-                    <div>
-                        <i class="board_ic"></i>
-                        <p>棋牌</p>
-                    </div>
-                </li>
             </ul>
             <!--遊戲選擇-->
-            <ul class="gameBox slotBox display">
+            <ul class="gameBox slotBox">
                 <li onclick="window.location.href='./slotPage.html'">
                     <img src="../images/platform/slot/bng.png">
                     <p>BNG 電子娛樂</p>
@@ -153,10 +153,10 @@
                     <p>好路棋牌</p>
                 </li>
                 <li onclick="window.location.href='./slotPage.html'">
-                    <img src="./images/platform/slot/gr.png">
+                    <img src="./images/platform/slot/tc.png">
                     <p>TC SLO
             </ul>
-            <ul class="gameBox liveBox">
+            <ul class="gameBox liveBox display">
                 <li onclick="callLive()">
                     <img src="../images/platform/live/allbet.png">
                     <p>歐博真人娛樂</p>
@@ -166,15 +166,15 @@
                     <p>WM真人娛樂</p>
                 </li>
                 <li onclick="callLive()">
-                    <img src="./images/platform/live/sa.png">
+                    <img src="../images/platform/live/sa.png">
                     <p>沙龍真人娛樂</p>
                 </li>
                 <li onclick="callLive()">
-                    <img src="./images/platform/live/og.png">
+                    <img src="../images/platform/live/og.png">
                     <p>OG PLUS真人娛樂</p>
                 </li>
                 <li onclick="callLive()">
-                    <img src="./images/platform/live/dg.png">
+                    <img src="../images/platform/live/dg.png">
                     <p>DG真人娛樂</p>
                 </li>
             </ul>
@@ -193,9 +193,13 @@
                     <img src="../images/platform/lottery/GS.png">
                     <p>京彩彩票</p>
                 </li>
-                <li onclick="unlogin()">
+                <li onclick="callLottery()">
                     <img src="./images/platform/lottery/rwd.png">
                     <p>白鹿</p>
+                </li>
+                <li onclick="callLottery()">
+                    <img src="./images/platform/lottery/wg.png">
+                    <p>WIN539</p>
                 </li>
             </ul>
             <!-- <ul class="gameBox fishBox">
@@ -409,41 +413,6 @@
             <hr>
             <button class="enterBtn">進入遊戲</button>
         </div>
-        <!--捕魚機彈窗-->
-        <div class="jumpWindow gameWindow fish">
-            <div class="title">
-                <p>捕魚機</p>
-                <i class="close"></i>
-            </div>
-            <form>
-                <div class="row">
-                    <p class="smallTitle">中心錢包</p>
-                    <div class="moneyText">$999</div>
-                </div>
-                <div class="row">
-                    <p class="smallTitle">轉帳金額</p>
-                    <input type="text">
-                </div>
-                <div class="row btnBox">
-                    <button type="button">$100</button>
-                    <button type="button">$500</button>
-                    <button type="button">$1000</button>
-                    <button type="button">$3000</button>
-                    <button type="button">$5000</button>
-                    <button type="button">$10000</button>
-                    <button type="button">全部</button>
-                </div>
-                <div class="row checkBtn">
-                    <button>確認</button>
-                </div>
-                <div class="row">
-                    <p class="smallTitle">鳳凰棋牌</p>
-                    <div class="moneyText">$0</div>
-                </div>
-            </form>
-            <hr>
-            <button class="enterBtn">進入遊戲</button>
-        </div>
         <!--彩票彈窗-->
         <div class="jumpWindow gameWindow lottery">
             <div class="title">
@@ -473,41 +442,6 @@
                 </div>
                 <div class="row">
                     <p class="smallTitle">SG</p>
-                    <div class="moneyText">$0</div>
-                </div>
-            </form>
-            <hr>
-            <button class="enterBtn">進入遊戲</button>
-        </div>
-        <!--棋牌彈窗-->
-        <div class="jumpWindow gameWindow board">
-            <div class="title">
-                <p>棋牌遊戲</p>
-                <i class="close"></i>
-            </div>
-            <form>
-                <div class="row">
-                    <p class="smallTitle">中心錢包</p>
-                    <div class="moneyText">$999</div>
-                </div>
-                <div class="row">
-                    <p class="smallTitle">轉帳金額</p>
-                    <input type="text">
-                </div>
-                <div class="row btnBox">
-                    <button type="button">$100</button>
-                    <button type="button">$500</button>
-                    <button type="button">$1000</button>
-                    <button type="button">$3000</button>
-                    <button type="button">$5000</button>
-                    <button type="button">$10000</button>
-                    <button type="button">全部</button>
-                </div>
-                <div class="row checkBtn">
-                    <button>確認</button>
-                </div>
-                <div class="row">
-                    <p class="smallTitle">鳳凰棋牌</p>
                     <div class="moneyText">$0</div>
                 </div>
             </form>

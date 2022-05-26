@@ -160,8 +160,8 @@ $(function(){
         $('.jumpWindow,.loginBtn').removeClass('display');
         $('.filter,.news,.alLogin').addClass('display');
 
-        $(".gameList .fishBtn").attr("onclick","window.location.href='./html/slotPage.html'");
-        $(".gameList .boardBtn").attr("onclick","window.location.href='./html/slotPage.html'");
+        $(".gameList .fishBtn").attr("onclick","window.location.href='./html/fishPage.html'");
+        $(".gameList .boardBtn").attr("onclick","window.location.href='./html/boardPage.html'");
         
         $('.gameBox.slotBox li').attr('onclick',"window.location.href='./html/slotPage.html'");
         $('.gameBox.liveBox li').attr('onclick',"callLive()");

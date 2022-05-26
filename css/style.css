@@ -1269,13 +1269,14 @@ html body .homeCenter .gameBox li .fixBox p {
 html body .homeCenter .gameBox li > p {
   position: absolute;
   right: 9vw;
-  bottom: 6vw;
+  bottom: 8vw;
   width: auto;
-  color: #ebd495;
-  font-size: 3.7vw;
+  color: transparent;
+  font-size: 4vw;
   font-weight: bold;
-  text-shadow: 1px 2px 2px #332116, 1px -1px 2px #332116;
-  font-size: 5vw;
+  background: linear-gradient(-45deg, #000000 0%, #3c3c3c 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
 }
 html body footer {
   width: 100%;
