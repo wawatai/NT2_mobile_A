@@ -1271,12 +1271,10 @@ html body .homeCenter .gameBox li > p {
   right: 9vw;
   bottom: 8vw;
   width: auto;
-  color: transparent;
-  font-size: 4vw;
+  color: #ebd495;
+  font-size: 5vw;
   font-weight: bold;
-  background: linear-gradient(-45deg, #000000 0%, #3c3c3c 100%);
-  -webkit-background-clip: text;
-          background-clip: text;
+  text-shadow: 2px 3px 3px #332116, 2px -2px 3px #332116;
 }
 html body footer {
   width: 100%;

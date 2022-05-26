@@ -46,11 +46,10 @@ $linear_11: linear-gradient(to bottom, #ffe9f5 0%,#fffff2 100%);
 
 //gameBox p
 @mixin gameBox_Word {
-    color: transparent;
-    font-size: 4vw;
+    color: #ebd495;
+    font-size: 5vw;
     font-weight: bold;
-    background: linear-gradient(-45deg,#000000 0%,#3c3c3c 100%);
-    background-clip: text;
+    text-shadow: 2px 3px 3px #332116, 2px -2px 3px #332116;
 }
 
 
