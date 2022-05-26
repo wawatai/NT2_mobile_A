@@ -738,6 +738,7 @@ html body {
 }
 html body main {
   padding: 45px 0 48px;
+  overflow-y: auto;
 }
 html body main.index {
   display: -webkit-box;
@@ -1107,22 +1108,18 @@ html body .memberArea .operate .btnBox button i {
 }
 html body .homeCenter {
   width: 100%;
-  height: 100%;
+  height: 460px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0 15px 5px;
   margin-top: 8px;
-  overflow: hidden;
 }
 html body .homeCenter .gameList {
   width: auto;
-  height: auto;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1138,7 +1135,7 @@ html body .homeCenter .gameList {
 }
 html body .homeCenter .gameList li {
   width: 18vw;
-  height: 20%;
+  height: 16.7%;
   margin-bottom: 3px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1165,7 +1162,7 @@ html body .homeCenter .gameList li div {
   height: 94%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 0 16px 0 11px;
+  padding: 0 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1207,7 +1204,7 @@ html body .homeCenter .gameList li div i.fish_ic {
 }
 html body .homeCenter .gameBox {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: none;
   overflow-y: auto;
   -ms-grid-columns: (1fr)[1];
@@ -2618,11 +2615,6 @@ html body .filter .bettingDetail .content .pageBox p {
 }
 html body .filter .bettingDetail .content .pageBox p span {
   padding: 0 5px;
-}
-@media only screen and (max-width: 375px) {
-  html body .homeCenter .gameList li div i {
-    display: none !important;
-  }
 }
 html body .slotWrap {
   width: 100%;

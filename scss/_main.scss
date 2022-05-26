@@ -10,6 +10,7 @@ html {
 
         main {
             padding: 45px 0 48px;
+            overflow-y: auto;
 
             &.index {
                 display: flex;

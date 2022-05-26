@@ -187,18 +187,16 @@
 //遊戲區
 .homeCenter {
     width: 100%;
-    height: 100%;
+    height: 460px;
     display: flex;
-    justify-content: space-between;
     box-sizing: border-box;
     padding: 0 15px 5px;
     margin-top: 8px;
-    overflow: hidden;
 
     //遊戲種類選單
     .gameList {
         width: auto;
-        height: auto;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -206,7 +204,7 @@
 
         li {
             width: 18vw;
-            height: 20%;
+            height: 16.7%;
             margin-bottom: 3px;
             display: flex;
             align-items: center;
@@ -236,7 +234,7 @@
                 width: 94%;
                 height: 94%;
                 box-sizing: border-box;
-                padding: 0 16px 0 11px;
+                padding: 0 16px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -275,7 +273,7 @@
     //遊戲選擇
     .gameBox {
         width: 100%;
-        height: auto;
+        height: 100%;
         display: none;
         overflow-y: auto;
         grid-template-columns: repeat(1,1fr);
