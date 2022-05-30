@@ -1134,8 +1134,8 @@ html body .homeCenter .gameList {
       flex-shrink: 0;
 }
 html body .homeCenter .gameList li {
-  width: 18vw;
-  height: 16.7%;
+  width: 72px;
+  height: 72px;
   margin-bottom: 3px;
   display: -webkit-box;
   display: -ms-flexbox;
