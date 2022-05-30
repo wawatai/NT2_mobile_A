@@ -42,7 +42,7 @@
                         padding: 0 5px;
                         margin-right: 9px;
                         border-radius: 1vw;
-                        background: $backgroundColor_6;
+                        background: $backgroundColor_10;
                         font-size: 14px;
                         letter-spacing: 1px;
                         font-weight: bold;
@@ -83,11 +83,11 @@
                 background: $backgroundColor_4;
                 border-style: solid;
                 border-width: 1px 0 1px 1px;
-                border-color: $borderColor_5;
+                border-color: $borderColor_6;
                 border-radius: 5vw 0 0 5vw;
                 font-size: 15px;
                 letter-spacing: 1px;
-                color: $font-color_4;
+                color: $font-color_16;
                 font-weight: bold;
             }
 
@@ -97,6 +97,8 @@
                 @include buttonStyle_2;
                 border-radius: 0 5vw 5vw 0;
                 font-size: 15px;
+                background: $linear_12;
+                border-color: $borderColor_6;
             }
         }
 

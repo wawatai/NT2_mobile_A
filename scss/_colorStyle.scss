@@ -6,6 +6,8 @@ $backgroundColor_5: #fc4d14;
 $backgroundColor_6: #cfa678;
 $backgroundColor_7: #cccccc;
 $backgroundColor_8: #fcf9f3;
+$backgroundColor_9: #f8f8f8;
+$backgroundColor_10: #b90b0a;
 
 $font-color_1: #999999;
 $font-color_2: #808080;
@@ -22,12 +24,14 @@ $font-color_12: #000000;
 $font-color_13: #cfa678;
 $font-color_14: #333333;
 $font-color_15: #ffff00;
+$font-color_16: #b90b0a;
 
 $borderColor_1: #e6e6e6;
 $borderColor_2: #cccccc;
 $borderColor_3: #e11515;
 $borderColor_4: #9a9b9b;
 $borderColor_5: #cca172;
+$borderColor_6: #b90b0a;
 
 $boxshadow_1: #dedede;
 $boxshadow_2: #c8c8c880;
@@ -43,6 +47,7 @@ $linear_8: linear-gradient(135deg,#5500ff 0%,#880cff 55%,#d979ff 100%);
 $linear_9: linear-gradient(135deg,#59e200 0%,#3cab08 55%,#60b857 100%);
 $linear_10: linear-gradient(135deg,#ffc600 0%,#d28b00 55%,#ffd665 100%);
 $linear_11: linear-gradient(to bottom, #ffe9f5 0%,#fffff2 100%);
+$linear_12: linear-gradient(to bottom,#ea232d 0%,#a80d0c 50%,#ea232d 100%);
 
 //gameBox p
 @mixin gameBox_Word {

@@ -967,7 +967,7 @@ html body .memberArea .loginBtn {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #f2f3f3;
+  background: #f8f8f8;
   width: 37.4vw;
   height: 100%;
   border-radius: 1.5vw 0 0 1.5vw;
@@ -995,7 +995,7 @@ html body .memberArea .alLogin {
       -ms-flex-align: center;
           align-items: center;
   padding: 0 1.33vw 0 2vw;
-  background: #f2f3f3;
+  background: #f8f8f8;
   width: 37.4vw;
   height: 100%;
   border-radius: 1.5vw 0 0 1.5vw;
@@ -1050,12 +1050,12 @@ html body .memberArea .alLogin ul li .lv {
   width: auto;
   height: 20px;
   padding: 0 5px;
-  background: linear-gradient(120deg, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: #b90b0a;
   font-size: 0.75rem;
   font-weight: bold;
   color: #ffffff;
   border-radius: 1.5vw;
-  border: solid 1px #cca172;
+  border: solid 1px #b90b0a;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1067,7 +1067,7 @@ html body .memberArea .alLogin ul li .lv {
   white-space: nowrap;
 }
 html body .memberArea .operate {
-  background: #f2f3f3;
+  background: #f8f8f8;
   border-radius: 0 1.5vw 1.5vw 0;
   width: 54.6vw;
   height: 100%;
@@ -2825,7 +2825,7 @@ html body .eventType ul {
 }
 html body .eventType ul li {
   width: 22.4vw;
-  height: 72px;
+  height: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2849,20 +2849,15 @@ html body .eventType ul li:active, html body .eventType ul li.active {
 html body .eventType ul li:active span, html body .eventType ul li.active span {
   color: #000000;
 }
-html body .eventType ul li .all_ic {
-  width: 25px;
-  height: 25px;
-  margin-bottom: 8px;
-}
 html body .eventType ul li span {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
   color: #808080;
 }
 html body .eventList {
   width: 100%;
   height: calc(100vh - 92px);
-  margin-top: 72px;
+  margin-top: 40px;
   overflow-y: auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -2879,7 +2874,7 @@ html body .eventList ul {
 html body .eventList ul li {
   width: 100%;
   height: auto;
-  margin-bottom: 12px;
+  margin-bottom: 6px;
 }
 html body .eventList ul li .eventBox {
   width: 100%;
@@ -2889,40 +2884,12 @@ html body .eventList ul li .eventBox {
   overflow: hidden;
   -webkit-box-shadow: 0 0 13px 5px #dedede;
           box-shadow: 0 0 13px 5px #dedede;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 html body .eventList ul li .eventBox .eventImg {
   background: #f2f3f3;
-}
-html body .eventList ul li .eventBox p {
-  width: 100%;
-  height: 36px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 0 15px;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-html body .eventList ul li .eventBox p button {
-  width: 95px;
-  height: 27px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#9ddbec), color-stop(50%, #0282cc), to(#82aeeb));
-  background: linear-gradient(to bottom, #9ddbec 0%, #0282cc 50%, #82aeeb 100%);
-  border: solid 1px #0282cc;
-  border-radius: 1vw;
-  color: #ffffff;
-  font-size: 12px;
-  font-weight: bold;
-}
-html body .eventList ul li .eventBox p button:active, html body .eventList ul li .eventBox p button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#9ddbec), color-stop(50%, #0282cc), to(#82aeeb));
-  background: linear-gradient(to top, #9ddbec 0%, #0282cc 50%, #82aeeb 100%);
 }
 html body .eventDetail {
   width: 100%;
@@ -3253,7 +3220,7 @@ html body .walletWrap .walletList .forHistory .title {
   margin-bottom: 11px;
   font-size: 13px;
   letter-spacing: 1px;
-  color: #ad8047;
+  color: #b90b0a;
   font-weight: bold;
 }
 html body .walletWrap .walletList .forActive .title .refresh_ic,
@@ -3410,7 +3377,7 @@ html body .walletWrap .walletList .forPlatform .title {
   margin-bottom: 11px;
   font-size: 13px;
   letter-spacing: 1px;
-  color: #ad8047;
+  color: #b90b0a;
   font-weight: bold;
 }
 html body .walletWrap .walletList .forPlatform .title button {
@@ -3425,6 +3392,9 @@ html body .walletWrap .walletList .forPlatform .title button {
   border-radius: 1vw;
   letter-spacing: 1px;
   font-size: 12px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border-color: #b90b0a;
 }
 html body .walletWrap .walletList .forPlatform .title button:active, html body .walletWrap .walletList .forPlatform .title button.active {
   background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
@@ -3607,7 +3577,7 @@ html body .memberWrap .user .info div .account .lv {
   padding: 0 5px;
   margin-right: 9px;
   border-radius: 1vw;
-  background: #cfa678;
+  background: #b90b0a;
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: bold;
@@ -3656,11 +3626,11 @@ html body .memberWrap .user .wallet p {
   background: #f2f3f3;
   border-style: solid;
   border-width: 1px 0 1px 1px;
-  border-color: #cca172;
+  border-color: #b90b0a;
   border-radius: 5vw 0 0 5vw;
   font-size: 15px;
   letter-spacing: 1px;
-  color: #ad8047;
+  color: #b90b0a;
   font-weight: bold;
 }
 html body .memberWrap .user .wallet button {
@@ -3676,6 +3646,9 @@ html body .memberWrap .user .wallet button {
   letter-spacing: 1px;
   border-radius: 0 5vw 5vw 0;
   font-size: 15px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border-color: #b90b0a;
 }
 html body .memberWrap .user .wallet button:active, html body .memberWrap .user .wallet button.active {
   background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
@@ -6979,7 +6952,7 @@ html body .walletWrap .walletList .forHistory .title {
   margin-bottom: 11px;
   font-size: 13px;
   letter-spacing: 1px;
-  color: #ad8047;
+  color: #b90b0a;
   font-weight: bold;
 }
 html body .walletWrap .walletList .forActive .title .refresh_ic,
@@ -7136,7 +7109,7 @@ html body .walletWrap .walletList .forPlatform .title {
   margin-bottom: 11px;
   font-size: 13px;
   letter-spacing: 1px;
-  color: #ad8047;
+  color: #b90b0a;
   font-weight: bold;
 }
 html body .walletWrap .walletList .forPlatform .title button {
@@ -7151,6 +7124,9 @@ html body .walletWrap .walletList .forPlatform .title button {
   border-radius: 1vw;
   letter-spacing: 1px;
   font-size: 12px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border-color: #b90b0a;
 }
 html body .walletWrap .walletList .forPlatform .title button:active, html body .walletWrap .walletList .forPlatform .title button.active {
   background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
