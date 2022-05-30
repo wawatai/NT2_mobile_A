@@ -134,7 +134,7 @@
                     height: 20px;
                     padding: 0 5px;
                     background: $backgroundColor_10;
-                    font-size: .75rem;
+                    font-size: 3vw;
                     font-weight: bold;
                     color: $font-color_5;
                     border-radius: 1.5vw;
@@ -142,7 +142,7 @@
                     display: flex;
                     align-items: center;
                     text-align: center;
-                    margin-left: 5px;
+                    margin-right: 5px;
                     white-space: nowrap;
                 }
             }
@@ -250,20 +250,20 @@
 
                 i {
                     display: block;
-                    width: 8vw;
-                    height: 8vw;
+                    width: 30px;
+                    height: 30px;
                     margin-bottom: 2vw;
 
                     &.slot_ic {
-                        width: 9vw;
-                        height: 5vw;
+                        width: 35px;
+                        height: 19px;
                     }
                     &.live_ic {
-                        height: 7vw;
+                        height: 27px;
                     }
                     &.fish_ic {
-                        width: 9vw;
-                        height: 4.27vw;
+                        width: 35px;
+                        height: 16px;
                     }
                 }
             }

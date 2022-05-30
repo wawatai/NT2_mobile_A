@@ -613,24 +613,23 @@ header .logo {
 
 .eventList .eventImg {
   width: 100%;
-  height: 38.28vw;
+  height: auto;
 }
 .eventList .eventImg img {
   width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 5px;
 }
 
 .eventDetail .eventImg {
   width: 100%;
-  height: 41vw;
+  height: auto;
 }
 .eventDetail .eventImg img {
   width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .appWrap img {
@@ -1051,7 +1050,7 @@ html body .memberArea .alLogin ul li .lv {
   height: 20px;
   padding: 0 5px;
   background: #b90b0a;
-  font-size: 0.75rem;
+  font-size: 3vw;
   font-weight: bold;
   color: #ffffff;
   border-radius: 1.5vw;
@@ -1063,7 +1062,7 @@ html body .memberArea .alLogin ul li .lv {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  margin-left: 5px;
+  margin-right: 5px;
   white-space: nowrap;
 }
 html body .memberArea .operate {
@@ -1187,20 +1186,20 @@ html body .homeCenter .gameList li div p {
 }
 html body .homeCenter .gameList li div i {
   display: block;
-  width: 8vw;
-  height: 8vw;
+  width: 30px;
+  height: 30px;
   margin-bottom: 2vw;
 }
 html body .homeCenter .gameList li div i.slot_ic {
-  width: 9vw;
-  height: 5vw;
+  width: 35px;
+  height: 19px;
 }
 html body .homeCenter .gameList li div i.live_ic {
-  height: 7vw;
+  height: 27px;
 }
 html body .homeCenter .gameList li div i.fish_ic {
-  width: 9vw;
-  height: 4.27vw;
+  width: 35px;
+  height: 16px;
 }
 html body .homeCenter .gameBox {
   width: 100%;
@@ -2850,7 +2849,7 @@ html body .eventType ul li:active span, html body .eventType ul li.active span {
   color: #000000;
 }
 html body .eventType ul li span {
-  font-size: 16px;
+  font-size: 3.5vw;
   font-weight: bold;
   color: #808080;
 }
