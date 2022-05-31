@@ -87,7 +87,7 @@
                 border-radius: 5vw 0 0 5vw;
                 font-size: 15px;
                 letter-spacing: 1px;
-                color: $font-color_16;
+                color: $font-color_13;
                 font-weight: bold;
             }
 
@@ -97,8 +97,6 @@
                 @include buttonStyle_2;
                 border-radius: 0 5vw 5vw 0;
                 font-size: 15px;
-                background: $linear_12;
-                border-color: $borderColor_6;
             }
         }
 

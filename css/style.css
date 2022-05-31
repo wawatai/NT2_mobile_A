@@ -1410,9 +1410,9 @@ html body .filter .plsGo .btnBox, html body .filter .plsGo2 .btnBox {
 html body .filter .plsGo .btnBox button, html body .filter .plsGo2 .btnBox button {
   width: 92%;
   height: 40px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -1566,9 +1566,9 @@ html body .filter .loginWindow form .realLogin {
   width: 77.6vw;
   height: 11.2vw;
   margin: 8vw 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -1639,9 +1639,9 @@ html body .filter .forgetWindow form button {
   width: 77.6vw;
   height: 11.2vw;
   margin-top: 15px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -1745,7 +1745,7 @@ html body .filter .registerWindow form label.isCheck input[type=checkbox] {
   margin-right: 10px;
 }
 html body .filter .registerWindow form label.isCheck p {
-  color: #cfa678;
+  color: #b90b0a;
 }
 html body .filter .registerWindow form label .eye {
   position: absolute;
@@ -1765,10 +1765,10 @@ html body .filter .registerWindow form label .cellphoneCheck {
           transform: translateY(-50%);
   right: 10px;
   background: #ffffff;
-  border: solid 1px #cfa678;
+  border: solid 1px #b90b0a;
   font-size: 13px;
   font-weight: bold;
-  color: #cfa678;
+  color: #b90b0a;
   border-radius: 3px;
 }
 html body .filter .registerWindow form label .must {
@@ -1843,9 +1843,9 @@ html body .filter .registerWindow form .checkBtn {
   height: 9.6vw;
   padding: 10px 0;
   margin-bottom: 10px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -1914,9 +1914,9 @@ html body .filter .ruleWindow button {
   margin: 15px auto;
   width: 77.6vw;
   height: 11.2vw;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -2062,10 +2062,10 @@ html body .filter .gameWindow form .row.btnBox button {
   height: 35px;
   margin-bottom: 5px;
   background: #ffffff;
-  border: solid 1px #cfa678;
+  border: solid 1px #b90b0a;
   font-size: 13px;
   font-weight: bold;
-  color: #cfa678;
+  color: #b90b0a;
   border-radius: 3px;
 }
 html body .filter .gameWindow form .row.checkBtn {
@@ -2076,9 +2076,9 @@ html body .filter .gameWindow form .row.checkBtn {
 html body .filter .gameWindow form .row.checkBtn button {
   width: calc(100% - 20vw);
   height: 11.2vw;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -2124,9 +2124,9 @@ html body .filter .gameWindow .enterBtn {
   width: 77.33vw;
   height: 11.46vw;
   margin: 4.8vw auto 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -2188,10 +2188,10 @@ html body .filter .langWindow ul li {
   color: #808080;
 }
 html body .filter .langWindow ul li:active, html body .filter .langWindow ul li.active {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #cda273), to(#eec696));
-  background: linear-gradient(to bottom, #cda273 10%, #eec696 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#c61515), to(#df1515));
+  background: linear-gradient(to bottom, #c61515 0%, #df1515 100%);
   color: #ffffff;
-  border-color: #cca172;
+  border-color: #b90b0a;
 }
 html body .filter .langWindow ul li:last-child {
   margin: 0;
@@ -2230,9 +2230,9 @@ html body .filter .eventWindow .btnBox {
 html body .filter .eventWindow .btnBox button {
   width: 92%;
   height: 40px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -2277,9 +2277,9 @@ html body .filter .passwordWindow .content button {
   width: 77.6vw;
   height: 9.87vw;
   margin: 7.13vw 0 5vw;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -2415,9 +2415,9 @@ html body .filter .checkPoint ul li .point .info::before {
 html body .filter .checkPoint ul li button {
   width: 17.87vw;
   height: 6.13vw;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -2472,10 +2472,10 @@ html body .filter .accWindow .content .bigBox button, html body .filter .platWin
   border-radius: 3px;
 }
 html body .filter .accWindow .content .bigBox button:active, html body .filter .accWindow .content .bigBox button.active, html body .filter .platWindow .content .bigBox button:active, html body .filter .platWindow .content .bigBox button.active {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #cda273), to(#eec696));
-  background: linear-gradient(to bottom, #cda273 10%, #eec696 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#c61515), to(#df1515));
+  background: linear-gradient(to bottom, #c61515 0%, #df1515 100%);
   color: #ffffff;
-  border-color: #cca172;
+  border-color: #b90b0a;
 }
 html body .filter .accWindow .content .smallBox, html body .filter .platWindow .content .smallBox {
   width: 100%;
@@ -2505,10 +2505,10 @@ html body .filter .accWindow .content .smallBox button, html body .filter .platW
   border-radius: 3px;
 }
 html body .filter .accWindow .content .smallBox button:active, html body .filter .accWindow .content .smallBox button.active, html body .filter .platWindow .content .smallBox button:active, html body .filter .platWindow .content .smallBox button.active {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #cda273), to(#eec696));
-  background: linear-gradient(to bottom, #cda273 10%, #eec696 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#c61515), to(#df1515));
+  background: linear-gradient(to bottom, #c61515 0%, #df1515 100%);
   color: #ffffff;
-  border-color: #cca172;
+  border-color: #b90b0a;
 }
 html body .filter .accWindow .content .smallBox button:nth-of-type(3n), html body .filter .platWindow .content .smallBox button:nth-of-type(3n) {
   margin-right: 0;
@@ -3325,9 +3325,9 @@ html body .walletWrap .walletList .forActive .pointBox .pointBtnBox button,
 html body .walletWrap .walletList .forHistory .pointBox .pointBtnBox button {
   width: 41.33vw;
   height: 8.27vw;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -3344,10 +3344,10 @@ html body .walletWrap .walletList .forHistory .pointBox .pointBtnBox button.acti
 html body .walletWrap .walletList .forActive .pointBox .pointBtnBox button.check,
 html body .walletWrap .walletList .forHistory .pointBox .pointBtnBox button.check {
   background: #ffffff;
-  border: solid 1px #cfa678;
+  border: solid 1px #b90b0a;
   font-size: 13px;
   font-weight: bold;
-  color: #cfa678;
+  color: #b90b0a;
   border-radius: 3px;
   font-size: 13px;
 }
@@ -3382,18 +3382,15 @@ html body .walletWrap .walletList .forPlatform .title {
 html body .walletWrap .walletList .forPlatform .title button {
   width: 18.93vw;
   height: 6.13vw;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
   border-radius: 1vw;
   letter-spacing: 1px;
   font-size: 12px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
-  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
-  border-color: #b90b0a;
 }
 html body .walletWrap .walletList .forPlatform .title button:active, html body .walletWrap .walletList .forPlatform .title button.active {
   background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
@@ -3635,9 +3632,9 @@ html body .memberWrap .user .wallet p {
 html body .memberWrap .user .wallet button {
   width: 27.73vw;
   height: 8.27vw;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -3645,9 +3642,6 @@ html body .memberWrap .user .wallet button {
   letter-spacing: 1px;
   border-radius: 0 5vw 5vw 0;
   font-size: 15px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
-  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
-  border-color: #b90b0a;
 }
 html body .memberWrap .user .wallet button:active, html body .memberWrap .user .wallet button.active {
   background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
@@ -3936,9 +3930,9 @@ html body .memberInfo form ul li input.active {
 }
 html body .memberInfo form ul li button {
   display: none;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -3957,9 +3951,9 @@ html body .memberInfo form ul .saveBtn {
   width: 92vw;
   height: 42px;
   margin: 12px auto 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -4027,10 +4021,10 @@ html body .memberInfo .info_1 ul li span .copy, html body .memberInfo .info_2 ul
   width: 47px;
   height: 29px;
   background: #ffffff;
-  border: solid 1px #cfa678;
+  border: solid 1px #b90b0a;
   font-size: 13px;
   font-weight: bold;
-  color: #cfa678;
+  color: #b90b0a;
   border-radius: 3px;
   margin-left: 15px;
 }
@@ -4163,10 +4157,10 @@ html body .memberPlatform .platformBox .content li p button {
   height: 28px;
   margin-left: 10px;
   background: #ffffff;
-  border: solid 1px #cfa678;
+  border: solid 1px #b90b0a;
   font-size: 13px;
   font-weight: bold;
-  color: #cfa678;
+  color: #b90b0a;
   border-radius: 3px;
 }
 html body .memberPlatform .platformBox .content li p button.un {
@@ -4907,9 +4901,9 @@ html body .applyList .listBox .list .btnBox button {
   height: 32px;
 }
 html body .applyList .listBox .list .btnBox button.applyBtn {
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -4922,10 +4916,10 @@ html body .applyList .listBox .list .btnBox button.applyBtn:active, html body .a
 }
 html body .applyList .listBox .list .btnBox button.checkBtn {
   background: #ffffff;
-  border: solid 1px #cfa678;
+  border: solid 1px #b90b0a;
   font-size: 13px;
   font-weight: bold;
-  color: #cfa678;
+  color: #b90b0a;
   border-radius: 3px;
   font-size: 16px;
 }
@@ -5040,10 +5034,10 @@ html body .applyRecord .searchContain form ul li .btnBox button {
           justify-content: center;
 }
 html body .applyRecord .searchContain form ul li .btnBox button:active, html body .applyRecord .searchContain form ul li .btnBox button.active {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #cda273), to(#eec696));
-  background: linear-gradient(to bottom, #cda273 10%, #eec696 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#c61515), to(#df1515));
+  background: linear-gradient(to bottom, #c61515 0%, #df1515 100%);
   color: #ffffff;
-  border-color: #cca172;
+  border-color: #b90b0a;
 }
 html body .applyRecord .searchContain form ul li .btnBox button:nth-of-type(1) {
   border-radius: 5px 0 0 5px;
@@ -5057,9 +5051,9 @@ html body .applyRecord .searchContain form ul li.bigBtn {
 html body .applyRecord .searchContain form ul li.bigBtn button {
   width: 100%;
   height: 42px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -5310,9 +5304,9 @@ html body .vipWrap .topBox .board .btnBox {
 html body .vipWrap .topBox .board .btnBox button {
   width: 43.2vw;
   height: 42px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -5326,10 +5320,10 @@ html body .vipWrap .topBox .board .btnBox button:active, html body .vipWrap .top
 }
 html body .vipWrap .topBox .board .btnBox button.check {
   background: #ffffff;
-  border: solid 1px #cfa678;
+  border: solid 1px #b90b0a;
   font-size: 13px;
   font-weight: bold;
-  color: #cfa678;
+  color: #b90b0a;
   border-radius: 3px;
   font-size: 3.7vw;
 }
@@ -6425,9 +6419,9 @@ html body .cardContent ul button {
   width: 100%;
   height: 42px;
   margin: 25px 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -6590,10 +6584,10 @@ html body .bettingWrap .searchContent .date button {
           justify-content: center;
 }
 html body .bettingWrap .searchContent .date button:active, html body .bettingWrap .searchContent .date button.active {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #cda273), to(#eec696));
-  background: linear-gradient(to bottom, #cda273 10%, #eec696 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#c61515), to(#df1515));
+  background: linear-gradient(to bottom, #c61515 0%, #df1515 100%);
   color: #ffffff;
-  border-color: #cca172;
+  border-color: #b90b0a;
 }
 html body .bettingWrap .searchContent .date button:nth-of-type(1) {
   border-radius: 5px 0 0 5px;
@@ -6604,9 +6598,9 @@ html body .bettingWrap .searchContent .date button:last-child {
 html body .bettingWrap .searchContent .check {
   width: 100%;
   height: 42px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -7057,9 +7051,9 @@ html body .walletWrap .walletList .forActive .pointBox .pointBtnBox button,
 html body .walletWrap .walletList .forHistory .pointBox .pointBtnBox button {
   width: 41.33vw;
   height: 8.27vw;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -7076,10 +7070,10 @@ html body .walletWrap .walletList .forHistory .pointBox .pointBtnBox button.acti
 html body .walletWrap .walletList .forActive .pointBox .pointBtnBox button.check,
 html body .walletWrap .walletList .forHistory .pointBox .pointBtnBox button.check {
   background: #ffffff;
-  border: solid 1px #cfa678;
+  border: solid 1px #b90b0a;
   font-size: 13px;
   font-weight: bold;
-  color: #cfa678;
+  color: #b90b0a;
   border-radius: 3px;
   font-size: 13px;
 }
@@ -7114,18 +7108,15 @@ html body .walletWrap .walletList .forPlatform .title {
 html body .walletWrap .walletList .forPlatform .title button {
   width: 18.93vw;
   height: 6.13vw;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
   border-radius: 1vw;
   letter-spacing: 1px;
   font-size: 12px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
-  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
-  border-color: #b90b0a;
 }
 html body .walletWrap .walletList .forPlatform .title button:active, html body .walletWrap .walletList .forPlatform .title button.active {
   background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
@@ -7432,9 +7423,9 @@ html body .depositWrap .depContent input {
 html body .depositWrap .depContent .check {
   width: 100%;
   height: 42px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -7482,17 +7473,17 @@ html body .depositWrap .depContent.already ul li p button {
 }
 html body .depositWrap .depContent.already ul li p button.copy {
   background: #ffffff;
-  border: solid 1px #cfa678;
+  border: solid 1px #b90b0a;
   font-size: 13px;
   font-weight: bold;
-  color: #cfa678;
+  color: #b90b0a;
   border-radius: 3px;
   font-size: 14px;
 }
 html body .depositWrap .depContent.already ul li p button.change {
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -7570,7 +7561,7 @@ html body .depositWrap .remindBox p.title {
   margin-bottom: 10px;
   font-size: 14px;
   letter-spacing: 1px;
-  color: #cfa678;
+  color: #b90b0a;
 }
 html body .depositWrap .remindBox p.sp {
   color: #e11515;
@@ -7670,7 +7661,7 @@ html body .transWrap .transBox .selectBox select {
   font-size: 14px;
 }
 html body .transWrap .transBox .selectBox .smallWord {
-  color: #cfa678;
+  color: #b90b0a;
   font-size: 12px;
   font-weight: bold;
   position: absolute;
@@ -7692,9 +7683,9 @@ html body .transWrap .transBox .btnBox {
 html body .transWrap .transBox .btnBox button {
   width: 45%;
   height: 42px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -7708,9 +7699,9 @@ html body .transWrap .transBox .btnBox button:active, html body .transWrap .tran
 html body .transWrap .transBox .check {
   width: 100%;
   height: 42px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -7881,9 +7872,9 @@ html body .transWrap .forActive .pointBox .pointBtnBox {
 html body .transWrap .forActive .pointBox .pointBtnBox button {
   width: 41.33vw;
   height: 8.27vw;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -7897,10 +7888,10 @@ html body .transWrap .forActive .pointBox .pointBtnBox button:active, html body 
 }
 html body .transWrap .forActive .pointBox .pointBtnBox button.check {
   background: #ffffff;
-  border: solid 1px #cfa678;
+  border: solid 1px #b90b0a;
   font-size: 13px;
   font-weight: bold;
-  color: #cfa678;
+  color: #b90b0a;
   border-radius: 3px;
   font-size: 13px;
 }
@@ -7936,9 +7927,9 @@ html body .transWrap .forPlatform .title {
 html body .transWrap .forPlatform .title button {
   width: 18.93vw;
   height: 6.13vw;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -8180,9 +8171,9 @@ html body .withWrap .walletBox .walletDetail .check {
   margin: 0 auto;
   width: 92.8vw;
   height: 42px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -8387,9 +8378,9 @@ html body .withWrap .withContent input {
 html body .withWrap .withContent .check {
   width: 100%;
   height: 42px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to bottom, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  border: solid 1px #cca172;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -8423,7 +8414,7 @@ html body .withWrap .remindBox p.title {
   margin-bottom: 10px;
   font-size: 14px;
   letter-spacing: 1px;
-  color: #cfa678;
+  color: #b90b0a;
 }
 html body .withWrap .remindBox p .sp {
   color: #e11515;

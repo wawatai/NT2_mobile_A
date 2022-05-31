@@ -21,10 +21,9 @@ $font-color_9: #ff0000;
 $font-color_10: #009245;
 $font-color_11: #ff8600;
 $font-color_12: #000000;
-$font-color_13: #cfa678;
+$font-color_13: #b90b0a;
 $font-color_14: #333333;
 $font-color_15: #ffff00;
-$font-color_16: #b90b0a;
 
 $borderColor_1: #e6e6e6;
 $borderColor_2: #cccccc;
@@ -47,7 +46,6 @@ $linear_8: linear-gradient(135deg,#5500ff 0%,#880cff 55%,#d979ff 100%);
 $linear_9: linear-gradient(135deg,#59e200 0%,#3cab08 55%,#60b857 100%);
 $linear_10: linear-gradient(135deg,#ffc600 0%,#d28b00 55%,#ffd665 100%);
 $linear_11: linear-gradient(to bottom, #ffe9f5 0%,#fffff2 100%);
-$linear_12: linear-gradient(to bottom,#ea232d 0%,#a80d0c 50%,#ea232d 100%);
 
 //gameBox p
 @mixin gameBox_Word {
@@ -63,8 +61,8 @@ $linear_12: linear-gradient(to bottom,#ea232d 0%,#a80d0c 50%,#ea232d 100%);
 
 //常用橘色漸層按鈕
 @mixin buttonStyle_2 {
-    background: linear-gradient(to bottom,#f1d7b7 0%,#cca172 50%,#f1c999 100%);
-    border: solid 1px #cca172;
+    background: linear-gradient(to bottom,#ea232d 0%,#a80d0c 50%,#ea232d 100%);
+    border: solid 1px #b90b0a;
     font-size: 16px;
     font-weight: bold;
     color: #ffffff;
@@ -79,10 +77,10 @@ $linear_12: linear-gradient(to bottom,#ea232d 0%,#a80d0c 50%,#ea232d 100%);
 //框線字按鈕
 @mixin buttonStyle_3 {
     background: #ffffff;
-    border: solid 1px #cfa678;
+    border: solid 1px #b90b0a;
     font-size: 13px;
     font-weight: bold;
-    color: #cfa678;
+    color: #b90b0a;
     border-radius: 3px;
 }
 @mixin buttonStyle_3_2 {
@@ -214,9 +212,9 @@ $linear_12: linear-gradient(to bottom,#ea232d 0%,#a80d0c 50%,#ea232d 100%);
     justify-content: center;
 
     &:active,&.active {
-        background: linear-gradient(to bottom, #cda273 10%, #eec696 100%);
+        background: linear-gradient(to bottom, #c61515 0%, #df1515 100%);
         color: #ffffff;
-        border-color: #cca172;
+        border-color: #b90b0a;
     }
 }
 

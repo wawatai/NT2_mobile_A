@@ -204,7 +204,7 @@
                 margin-bottom: 11px;
                 font-size: 13px;
                 letter-spacing: 1px;
-                color: $font-color_16;
+                color: $font-color_13;
                 font-weight: bold;
 
                 .refresh_ic {
@@ -319,7 +319,7 @@
                 margin-bottom: 11px;
                 font-size: 13px;
                 letter-spacing: 1px;
-                color: $font-color_16;
+                color: $font-color_13;
                 font-weight: bold;
 
                 button {
@@ -327,8 +327,6 @@
                     height: 6.13vw;
                     @include buttonStyle_2;
                     font-size: 12px;
-                    background: $linear_12;
-                    border-color: $borderColor_6;
                 }
             }
 
