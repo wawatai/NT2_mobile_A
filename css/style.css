@@ -1153,8 +1153,12 @@ html body .homeCenter .gameList li {
 html body .homeCenter .gameList li.slotBtn div, html body .homeCenter .gameList li.fishBtn div {
   padding: 0 9px 0px 8px;
 }
+html body .homeCenter .gameList li.active div {
+  background: -webkit-gradient(linear, left top, left bottom, from(#e60000), to(#800808));
+  background: linear-gradient(to bottom, #e60000 0%, #800808 100%);
+}
 html body .homeCenter .gameList li.active div p {
-  color: #e11515;
+  color: #ffffff;
 }
 html body .homeCenter .gameList li div {
   width: 94%;
@@ -1420,8 +1424,8 @@ html body .filter .plsGo .btnBox button, html body .filter .plsGo2 .btnBox butto
   letter-spacing: 1px;
 }
 html body .filter .plsGo .btnBox button:active, html body .filter .plsGo .btnBox button.active, html body .filter .plsGo2 .btnBox button:active, html body .filter .plsGo2 .btnBox button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .filter .loading {
   width: 92.27vw;
@@ -1576,8 +1580,8 @@ html body .filter .loginWindow form .realLogin {
   letter-spacing: 1px;
 }
 html body .filter .loginWindow form .realLogin:active, html body .filter .loginWindow form .realLogin.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .filter .loginWindow .registerBtn {
   color: #595757;
@@ -1649,8 +1653,8 @@ html body .filter .forgetWindow form button {
   letter-spacing: 1px;
 }
 html body .filter .forgetWindow form button:active, html body .filter .forgetWindow form button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .filter .forgetWindow form .remind {
   width: 100%;
@@ -1853,8 +1857,8 @@ html body .filter .registerWindow form .checkBtn {
   letter-spacing: 1px;
 }
 html body .filter .registerWindow form .checkBtn:active, html body .filter .registerWindow form .checkBtn.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .filter .ruleWindow {
   width: 87.2vw;
@@ -1924,8 +1928,8 @@ html body .filter .ruleWindow button {
   letter-spacing: 1px;
 }
 html body .filter .ruleWindow button:active, html body .filter .ruleWindow button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .filter .news {
   width: 87.2vw;
@@ -2086,8 +2090,8 @@ html body .filter .gameWindow form .row.checkBtn button {
   letter-spacing: 1px;
 }
 html body .filter .gameWindow form .row.checkBtn button:active, html body .filter .gameWindow form .row.checkBtn button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .filter .gameWindow form .row .smallTitle {
   margin-right: 6vw;
@@ -2134,8 +2138,8 @@ html body .filter .gameWindow .enterBtn {
   letter-spacing: 1px;
 }
 html body .filter .gameWindow .enterBtn:active, html body .filter .gameWindow .enterBtn.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .filter .langWindow {
   width: 92vw;
@@ -2240,8 +2244,8 @@ html body .filter .eventWindow .btnBox button {
   letter-spacing: 1px;
 }
 html body .filter .eventWindow .btnBox button:active, html body .filter .eventWindow .btnBox button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .filter .passwordWindow {
   width: 92.27vw;
@@ -2287,8 +2291,8 @@ html body .filter .passwordWindow .content button {
   letter-spacing: 1px;
 }
 html body .filter .passwordWindow .content button:active, html body .filter .passwordWindow .content button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .filter .checkPoint {
   width: 92.27vw;
@@ -2426,8 +2430,8 @@ html body .filter .checkPoint ul li button {
   font-size: 12px;
 }
 html body .filter .checkPoint ul li button:active, html body .filter .checkPoint ul li button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .filter .accWindow, html body .filter .platWindow {
   width: 92.27vw;
@@ -3338,8 +3342,8 @@ html body .walletWrap .walletList .forHistory .pointBox .pointBtnBox button {
 html body .walletWrap .walletList .forActive .pointBox .pointBtnBox button:active, html body .walletWrap .walletList .forActive .pointBox .pointBtnBox button.active,
 html body .walletWrap .walletList .forHistory .pointBox .pointBtnBox button:active,
 html body .walletWrap .walletList .forHistory .pointBox .pointBtnBox button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .walletWrap .walletList .forActive .pointBox .pointBtnBox button.check,
 html body .walletWrap .walletList .forHistory .pointBox .pointBtnBox button.check {
@@ -3393,8 +3397,8 @@ html body .walletWrap .walletList .forPlatform .title button {
   font-size: 12px;
 }
 html body .walletWrap .walletList .forPlatform .title button:active, html body .walletWrap .walletList .forPlatform .title button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .walletWrap .walletList .forPlatform ul {
   display: -webkit-box;
@@ -3459,7 +3463,7 @@ html body .walletWrap .walletList .forPlatform ul li div .smallInfo .inner {
   height: auto;
   padding: 6px 18px;
   color: #ffffff;
-  background: #cfa678;
+  background: #b90b0a;
   border-radius: 3px;
   position: absolute;
   left: 50%;
@@ -3479,7 +3483,7 @@ html body .walletWrap .walletList .forPlatform ul li div .smallInfo .inner::befo
   height: 0;
   border-style: solid;
   border-width: 0 4px 6px 4px;
-  border-color: #cfa678 transparent;
+  border-color: #b90b0a transparent;
 }
 html body .walletWrap .walletList .forPlatform ul li p {
   margin-top: 10px;
@@ -3644,8 +3648,8 @@ html body .memberWrap .user .wallet button {
   font-size: 15px;
 }
 html body .memberWrap .user .wallet button:active, html body .memberWrap .user .wallet button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .memberWrap .user .btnBox {
   display: -webkit-box;
@@ -3765,7 +3769,7 @@ html body .memberWrap .user ul li .bubble {
   right: 10px;
   border-radius: 50%;
   color: #ffffff;
-  background: #cfa678;
+  background: #b90b0a;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -3943,8 +3947,8 @@ html body .memberInfo form ul li button {
   margin-bottom: 2px;
 }
 html body .memberInfo form ul li button:active, html body .memberInfo form ul li button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .memberInfo form ul .saveBtn {
   display: block;
@@ -3961,8 +3965,8 @@ html body .memberInfo form ul .saveBtn {
   letter-spacing: 1px;
 }
 html body .memberInfo form ul .saveBtn:active, html body .memberInfo form ul .saveBtn.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .memberInfo .info_1, html body .memberInfo .info_2 {
   width: 100%;
@@ -4911,8 +4915,8 @@ html body .applyList .listBox .list .btnBox button.applyBtn {
   letter-spacing: 1px;
 }
 html body .applyList .listBox .list .btnBox button.applyBtn:active, html body .applyList .listBox .list .btnBox button.applyBtn.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .applyList .listBox .list .btnBox button.checkBtn {
   background: #ffffff;
@@ -5061,8 +5065,8 @@ html body .applyRecord .searchContain form ul li.bigBtn button {
   letter-spacing: 1px;
 }
 html body .applyRecord .searchContain form ul li.bigBtn button:active, html body .applyRecord .searchContain form ul li.bigBtn button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .applyRecord .reviewBody {
   width: 100%;
@@ -5315,8 +5319,8 @@ html body .vipWrap .topBox .board .btnBox button {
   font-size: 3.7vw;
 }
 html body .vipWrap .topBox .board .btnBox button:active, html body .vipWrap .topBox .board .btnBox button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .vipWrap .topBox .board .btnBox button.check {
   background: #ffffff;
@@ -6429,8 +6433,8 @@ html body .cardContent ul button {
   letter-spacing: 1px;
 }
 html body .cardContent ul button:active, html body .cardContent ul button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .bettingWrap {
   width: 100%;
@@ -6608,8 +6612,8 @@ html body .bettingWrap .searchContent .check {
   letter-spacing: 1px;
 }
 html body .bettingWrap .searchContent .check:active, html body .bettingWrap .searchContent .check.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .bettingWrap .list {
   width: 100%;
@@ -7064,8 +7068,8 @@ html body .walletWrap .walletList .forHistory .pointBox .pointBtnBox button {
 html body .walletWrap .walletList .forActive .pointBox .pointBtnBox button:active, html body .walletWrap .walletList .forActive .pointBox .pointBtnBox button.active,
 html body .walletWrap .walletList .forHistory .pointBox .pointBtnBox button:active,
 html body .walletWrap .walletList .forHistory .pointBox .pointBtnBox button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .walletWrap .walletList .forActive .pointBox .pointBtnBox button.check,
 html body .walletWrap .walletList .forHistory .pointBox .pointBtnBox button.check {
@@ -7119,8 +7123,8 @@ html body .walletWrap .walletList .forPlatform .title button {
   font-size: 12px;
 }
 html body .walletWrap .walletList .forPlatform .title button:active, html body .walletWrap .walletList .forPlatform .title button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .walletWrap .walletList .forPlatform ul {
   display: -webkit-box;
@@ -7185,7 +7189,7 @@ html body .walletWrap .walletList .forPlatform ul li div .smallInfo .inner {
   height: auto;
   padding: 6px 18px;
   color: #ffffff;
-  background: #cfa678;
+  background: #b90b0a;
   border-radius: 3px;
   position: absolute;
   left: 50%;
@@ -7205,7 +7209,7 @@ html body .walletWrap .walletList .forPlatform ul li div .smallInfo .inner::befo
   height: 0;
   border-style: solid;
   border-width: 0 4px 6px 4px;
-  border-color: #cfa678 transparent;
+  border-color: #b90b0a transparent;
 }
 html body .walletWrap .walletList .forPlatform ul li p {
   margin-top: 10px;
@@ -7434,8 +7438,8 @@ html body .depositWrap .depContent .check {
   margin-top: 20px;
 }
 html body .depositWrap .depContent .check:active, html body .depositWrap .depContent .check.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .depositWrap .depContent.already .title {
   color: #e11515;
@@ -7492,8 +7496,8 @@ html body .depositWrap .depContent.already ul li p button.change {
   font-size: 14px;
 }
 html body .depositWrap .depContent.already ul li p button.change:active, html body .depositWrap .depContent.already ul li p button.change.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .depositWrap .depContent.already ul li .checkBox {
   width: 95%;
@@ -7693,8 +7697,8 @@ html body .transWrap .transBox .btnBox button {
   letter-spacing: 1px;
 }
 html body .transWrap .transBox .btnBox button:active, html body .transWrap .transBox .btnBox button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .transWrap .transBox .check {
   width: 100%;
@@ -7709,8 +7713,8 @@ html body .transWrap .transBox .check {
   letter-spacing: 1px;
 }
 html body .transWrap .transBox .check:active, html body .transWrap .transBox .check.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .transWrap .subClass {
   width: 100%;
@@ -7883,8 +7887,8 @@ html body .transWrap .forActive .pointBox .pointBtnBox button {
   font-size: 13px;
 }
 html body .transWrap .forActive .pointBox .pointBtnBox button:active, html body .transWrap .forActive .pointBox .pointBtnBox button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .transWrap .forActive .pointBox .pointBtnBox button.check {
   background: #ffffff;
@@ -7938,8 +7942,8 @@ html body .transWrap .forPlatform .title button {
   font-size: 12px;
 }
 html body .transWrap .forPlatform .title button:active, html body .transWrap .forPlatform .title button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .transWrap .forPlatform ul {
   display: -webkit-box;
@@ -8004,7 +8008,7 @@ html body .transWrap .forPlatform ul li div .smallInfo .inner {
   height: auto;
   padding: 6px 18px;
   color: #ffffff;
-  background: #cfa678;
+  background: #b90b0a;
   border-radius: 3px;
   position: absolute;
   left: 50%;
@@ -8024,7 +8028,7 @@ html body .transWrap .forPlatform ul li div .smallInfo .inner::before {
   height: 0;
   border-style: solid;
   border-width: 0 4px 6px 4px;
-  border-color: #cfa678 transparent;
+  border-color: #b90b0a transparent;
 }
 html body .transWrap .forPlatform ul li p {
   margin-top: 10px;
@@ -8181,8 +8185,8 @@ html body .withWrap .walletBox .walletDetail .check {
   letter-spacing: 1px;
 }
 html body .withWrap .walletBox .walletDetail .check:active, html body .withWrap .walletBox .walletDetail .check.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .withWrap .walletBox .walletDetail .detailBox {
   padding-bottom: 15px;
@@ -8251,7 +8255,7 @@ html body .withWrap .walletBox .walletDetail .detailBox ul li div .smallInfo .in
   height: auto;
   padding: 6px 18px;
   color: #ffffff;
-  background: #cfa678;
+  background: #b90b0a;
   border-radius: 3px;
   position: absolute;
   left: 50%;
@@ -8271,7 +8275,7 @@ html body .withWrap .walletBox .walletDetail .detailBox ul li div .smallInfo .in
   height: 0;
   border-style: solid;
   border-width: 0 4px 6px 4px;
-  border-color: #cfa678 transparent;
+  border-color: #b90b0a transparent;
 }
 html body .withWrap .walletBox .walletDetail .detailBox ul li p {
   margin-top: 10px;
@@ -8389,8 +8393,8 @@ html body .withWrap .withContent .check {
   margin-top: 10px;
 }
 html body .withWrap .withContent .check:active, html body .withWrap .withContent .check.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f1d7b7), color-stop(50%, #cca172), to(#f1c999));
-  background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .withWrap .remindBox {
   width: 92.27vw;

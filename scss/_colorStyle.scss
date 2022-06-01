@@ -46,6 +46,7 @@ $linear_8: linear-gradient(135deg,#5500ff 0%,#880cff 55%,#d979ff 100%);
 $linear_9: linear-gradient(135deg,#59e200 0%,#3cab08 55%,#60b857 100%);
 $linear_10: linear-gradient(135deg,#ffc600 0%,#d28b00 55%,#ffd665 100%);
 $linear_11: linear-gradient(to bottom, #ffe9f5 0%,#fffff2 100%);
+$linear_12: linear-gradient(to bottom, #e60000 0%, #800808 100%);
 
 //gameBox p
 @mixin gameBox_Word {
@@ -70,7 +71,7 @@ $linear_11: linear-gradient(to bottom, #ffe9f5 0%,#fffff2 100%);
     letter-spacing: 1px;
 
     &:active,&.active {
-        background: linear-gradient(to top,#f1d7b7 0%,#cca172 50%,#f1c999 100%);
+        background: linear-gradient(to bottom,#b90b0a 0%,#ea232d 100%);
     }
 }
 
