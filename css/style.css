@@ -5865,6 +5865,29 @@ html body .vipDetail .lvWrap .list .right .finger::after {
             transform: translateX(0);
   }
 }
+html body .vipDetail .remindBox {
+  width: 100%;
+  height: auto;
+  padding: 24px 18px;
+  background: #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html body .vipDetail .remindBox p {
+  color: #595757;
+  font-size: 3.7vw;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 4.2vw;
+}
+html body .vipDetail .remindBox p:last-child {
+  margin: 0;
+}
+html body .vipDetail .remindBox p.title {
+  color: #000000;
+  font-size: 4.5vw;
+  margin-bottom: 20px;
+}
 html body .topList {
   width: 100%;
   height: auto;
