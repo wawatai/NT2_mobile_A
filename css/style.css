@@ -6311,7 +6311,7 @@ html body .cardList .cardBox ul li {
   width: 250px;
   height: 150px;
   border-radius: 5px;
-  background: linear-gradient(120deg, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: linear-gradient(120deg, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6372,7 +6372,7 @@ html body .cardList .cardBox ul li .ing {
   text-align: center;
   background: #ffffff;
   border-radius: 0 0 5px 5px;
-  color: #ad8047;
+  color: #666666;
   margin: 10px auto 5px;
   font-size: 12px;
 }
