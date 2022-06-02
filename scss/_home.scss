@@ -172,11 +172,14 @@
                 width: auto;
                 height: auto;
                 background: none;
+                font-size: 15px;
+                font-weight: bold;
+                color: $font-color_2;
             
                 i {
                     display: block;
-                    width: 7vw;
-                    height: 7vw;
+                    width: 8vw;
+                    height: 8vw;
                     margin-bottom: 1vw;
                 }
             }
@@ -245,7 +248,8 @@
                 background: $linear_1;
 
                 p {
-                    font-size: 12px;
+                    font-size: 15px;
+                    font-weight: bold;
                     color: $font-color_1;
                 }
 
