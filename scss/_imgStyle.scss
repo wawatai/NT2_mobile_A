@@ -414,6 +414,30 @@ header .refresh_ic {
     background: url('../images/medal.png') no-repeat center;
     background-size: contain;
 }
+.vipWrap .medal.v2 {
+    background: url('../images/medal_2.png') no-repeat center;
+    background-size: contain;
+}
+.vipWrap .medal.v3 {
+    background: url('../images/medal_3.png') no-repeat center;
+    background-size: contain;
+}
+.vipWrap .medal.v4 {
+    background: url('../images/medal_4.png') no-repeat center;
+    background-size: contain;
+}
+.vipWrap .medal.v5 {
+    background: url('../images/medal_5.png') no-repeat center;
+    background-size: contain;
+}
+.vipWrap .medal.v6 {
+    background: url('../images/medal_6.png') no-repeat center;
+    background-size: contain;
+}
+.vipWrap .medal.v7 {
+    background: url('../images/medal_7.png') no-repeat center;
+    background-size: contain;
+}
 //vip cardBox arrow
 .vipWrap .cardBox i {
     background: url('../images/icon/svg/arrow_r.svg') no-repeat;
@@ -430,11 +454,7 @@ header .refresh_ic {
 //vip .card
 .vipWrap .cardBox .card li {
     background: url('../images/vip_card.png') no-repeat;
-    background-size: cover;
-}
-.vipWrap .cardBox .card li.cur {
-    background: url('../images/vip_card_a.png') no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 //mail

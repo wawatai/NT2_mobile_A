@@ -465,6 +465,36 @@ header .refresh_ic {
   background-size: contain;
 }
 
+.vipWrap .medal.v2 {
+  background: url("../images/medal_2.png") no-repeat center;
+  background-size: contain;
+}
+
+.vipWrap .medal.v3 {
+  background: url("../images/medal_3.png") no-repeat center;
+  background-size: contain;
+}
+
+.vipWrap .medal.v4 {
+  background: url("../images/medal_4.png") no-repeat center;
+  background-size: contain;
+}
+
+.vipWrap .medal.v5 {
+  background: url("../images/medal_5.png") no-repeat center;
+  background-size: contain;
+}
+
+.vipWrap .medal.v6 {
+  background: url("../images/medal_6.png") no-repeat center;
+  background-size: contain;
+}
+
+.vipWrap .medal.v7 {
+  background: url("../images/medal_7.png") no-repeat center;
+  background-size: contain;
+}
+
 .vipWrap .cardBox i {
   background: url("../images/icon/svg/arrow_r.svg") no-repeat;
   background-size: contain;
@@ -482,12 +512,7 @@ header .refresh_ic {
 
 .vipWrap .cardBox .card li {
   background: url("../images/vip_card.png") no-repeat;
-  background-size: cover;
-}
-
-.vipWrap .cardBox .card li.cur {
-  background: url("../images/vip_card_a.png") no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 header .editBtn {
@@ -5217,25 +5242,6 @@ html body .vipWrap .topBox .board .content .medal {
   position: absolute;
   top: 0;
   right: 5.6vw;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 6vw 0 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-html body .vipWrap .topBox .board .content .medal p {
-  font-size: 18px;
-  font-weight: bold;
-  color: #000000;
-  text-align: center;
-  line-height: 22px;
 }
 html body .vipWrap .topBox .board .exBar {
   width: 100%;
@@ -5457,35 +5463,12 @@ html body .vipWrap .topBox .cardBox .card ul li {
           box-sizing: border-box;
   padding: 0 6.67vw;
 }
-html body .vipWrap .topBox .cardBox .card ul li.cur .textBox {
-  color: #ffffff;
-}
-html body .vipWrap .topBox .cardBox .card ul li.cur .textBox p {
-  color: #ffffff;
-}
 html body .vipWrap .topBox .cardBox .card ul li .medal {
   position: absolute;
   top: 0;
   left: 5.6vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   width: 19.47vw;
   height: 25.87vw;
-  padding-top: 6vw;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-html body .vipWrap .topBox .cardBox .card ul li .medal p {
-  font-weight: bold;
-  font-size: 18px;
-  color: #000000;
 }
 html body .vipWrap .topBox .cardBox .card ul li .textBox {
   display: -webkit-box;
@@ -5500,13 +5483,15 @@ html body .vipWrap .topBox .cardBox .card ul li .textBox {
           align-items: center;
   margin-bottom: 6.4vw;
   font-size: 14px;
-  color: #999999;
+  color: #ffffff;
   font-weight: bold;
+  text-align: center;
+  line-height: 16px;
 }
 html body .vipWrap .topBox .cardBox .card ul li .textBox p {
   margin-top: 2.4vw;
   font-size: 18px;
-  color: #595757;
+  color: #ffffff;
 }
 html body .vipWrap .enjoyBox {
   width: 100%;
@@ -5560,9 +5545,6 @@ html body .vipWrap .enjoyBox ul li p {
   font-size: 22px;
   color: #e11515;
   margin-top: 8px;
-}
-html body .vipWrap .enjoyBox ul s {
-  width: 45.33vw;
 }
 html body .vipWrap .checkBtn {
   width: 100%;
@@ -5708,7 +5690,6 @@ html body .vipDetail .lvWrap .list .right {
   display: -ms-flexbox;
   display: flex;
   overflow-x: auto;
-  position: relative;
 }
 html body .vipDetail .lvWrap .list .right ul {
   width: auto;
