@@ -325,6 +325,11 @@ header .refresh_ic {
   background-size: contain;
 }
 
+.memberWrap .fix_ic {
+  background: url("../images/icon/svg/fixing.svg") no-repeat;
+  background-size: contain;
+}
+
 .appWrap .download_ic {
   background: url("../images/icon/svg/download.svg") no-repeat;
   background-size: 100%;
@@ -7996,4 +8001,58 @@ html body .withWrap .remindBox p.title {
 }
 html body .withWrap .remindBox p .sp {
   color: #e11515;
+}
+html body .fixWrap {
+  width: 100%;
+  height: calc(100vh - 96px);
+  overflow-y: auto;
+}
+html body .fixWrap .content {
+  width: 100%;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 32px 16px;
+}
+html body .fixWrap .content table {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 0 1px #e11515;
+          box-shadow: 0 0 0 1px #e11515;
+  border-radius: 16px;
+}
+html body .fixWrap .content table tr th {
+  height: 40px;
+  background: #e11515;
+  vertical-align: middle;
+}
+html body .fixWrap .content table tr th p {
+  color: #ffffff;
+  font-size: 4vw;
+  font-weight: bold;
+}
+html body .fixWrap .content table tr td {
+  height: 40px;
+  background: #ffffff;
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: #e6e6e6;
+  vertical-align: middle;
+}
+html body .fixWrap .content table tr td:nth-of-type(1) {
+  width: 25%;
+}
+html body .fixWrap .content table tr td:nth-of-type(2) {
+  width: 25%;
+}
+html body .fixWrap .content table tr td:nth-of-type(3) {
+  width: 50%;
+}
+html body .fixWrap .content table tr td p {
+  width: 100%;
+  color: #000000;
+  font-size: 3.4vw;
+  font-weight: bold;
+  text-align: center;
 }
