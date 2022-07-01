@@ -25,7 +25,7 @@
             display: inline-block;
             font-size: 13px;
             color: $font-color_1;
-            animation: marquee 30s linear 0s infinite;
+            animation: marquee 50s linear 0s infinite;
             padding-left: 100%;
         }
 
@@ -335,6 +335,7 @@
 
             .fixBox {
                 display: none;
+                flex-direction: column;
                 align-items: center;
                 justify-content: center;
                 position: absolute;
@@ -345,10 +346,36 @@
                 background: $backgroundColor_3;
                 border-radius: 5px;
 
-                p {
+                .title {
                     color: $font-color_5;
                     font-size: 7vw;
                     font-weight: bold;
+                    margin-bottom: 3vw;
+                }
+
+                .timeBox {
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding: 0 10vw;
+                    display: flex;
+                    justify-content: space-between;
+
+                    div {
+
+                        span {
+                            display: block;
+                            color: $font-color_5;
+                            font-size: 4vw;
+                            font-weight: bold;
+                            margin-bottom: 3vw;
+                        }
+
+                        p {
+                            color: $font-color_5;
+                            font-size: 7vw;
+                            font-weight: bold;
+                        }
+                    }
                 }
             }
 

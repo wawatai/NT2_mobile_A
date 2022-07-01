@@ -282,6 +282,10 @@ header .refresh_ic {
     background: url('../images/icon/svg/exit.svg') no-repeat center;
     background-size: 100%;
 }
+.memberWrap .point_ic {
+    background: url('../images/icon/svg/point.svg') no-repeat;
+    background-size: contain;
+}
 
 //app .download_ic
 .appWrap .download_ic {
@@ -370,10 +374,10 @@ header .refresh_ic {
     background-size: contain;
 }
 //helpInner .img
-.helpInner .img.depositWay {
-    background: url('../images/explain/withdraw.png') no-repeat;
-    background-size: 100%;
-}
+// .helpInner .img.depositWay {
+//     background: url('../images/explain/withdraw.png') no-repeat;
+//     background-size: 100%;
+// }
 .helpInner .img.deposit_water {
     background: url('../images/explain/online01.png') no-repeat;
     background-size: 100%;
@@ -392,6 +396,31 @@ header .refresh_ic {
 }
 .helpInner .img.remote {
     background: url('../images/explain/remote.png') no-repeat;
+    background-size: 100%;
+}
+
+.helpInner .img.download01 {
+    background: url('../images/explain/download01.jpg') no-repeat;
+    background-size: 100%;
+}
+.helpInner .img.download02 {
+    background: url('../images/explain/download02.jpg') no-repeat;
+    background-size: 100%;
+}
+.helpInner .img.download03 {
+    background: url('../images/explain/download03.jpg') no-repeat;
+    background-size: 100%;
+}
+.helpInner .img.download04 {
+    background: url('../images/explain/download04.jpg') no-repeat;
+    background-size: 100%;
+}
+.helpInner .img.download05 {
+    background: url('../images/explain/download05.jpg') no-repeat;
+    background-size: 100%;
+}
+.helpInner .img.download06 {
+    background: url('../images/explain/download06.jpg') no-repeat;
     background-size: 100%;
 }
 
@@ -475,7 +504,15 @@ header .editBtn {
     background-size: contain;
 }
 .depositWrap .atm_ic {
-    background: url('../images/icon/svg/shop.svg') no-repeat center;
+    background: url('../images/icon/svg/atm.svg') no-repeat center;
+    background-size: contain;
+}
+.depositWrap .usdt_ic {
+    background: url('../images/icon/svg/usdt.svg') no-repeat;
+    background-size: contain;
+}
+.depositWrap .shop_ic {
+    background: url('../images/icon/svg/shop.svg') no-repeat;
     background-size: contain;
 }
 .depositWrap .listWrap li.active::after {

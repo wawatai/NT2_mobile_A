@@ -211,6 +211,33 @@
                     &.remote {
                         padding-top: 137%;
                     }
+
+                    &.download01,
+                    &.download02 {
+                        padding-top: 59%;
+                    }
+
+                    &.download03 {
+                        padding-top: 125%;
+                    }
+
+                    &.download04 {
+                        padding-top: 140%;
+                    }
+
+                    &.download05 {
+                        padding-top: 69%;
+                    }
+
+                    &.download06 {
+                        padding-top: 60%;
+                    }
+                }
+
+                button {
+                    width: 70%;
+                    height: 9.87vw;
+                    @include buttonStyle_2;
                 }
             }
         }

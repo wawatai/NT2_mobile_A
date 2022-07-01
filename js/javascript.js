@@ -288,56 +288,19 @@ function backToPage(){
     $(".helpWrap").addClass("display");
 }
 $(function(){
-    $(".helpInner li").click(function(){
-        $(this).toggleClass("active");
+    $(".helpInner li .title").click(function(){
+        $($(this).closest("li")).toggleClass("active");
     })
 
-    $(".helpBody li:eq(0)").click(function(){
-        $("header .helpPage").removeClass("display");
-        $("header .helpPage.q1").addClass("display");
+    $(".helpBody li").click(function(){
+        $("header .helpPage,.helpWrap,.helpInner ul")
+        .removeClass("display");
 
-        $(".helpWrap,.helpInner ul").removeClass("display");
-        $(".helpInner,.helpInner .q1").addClass("display");
-    })
+        var n = $(this).index();
 
-    $(".helpBody li:eq(1)").click(function(){
-        $("header .helpPage").removeClass("display");
-        $("header .helpPage.q2").addClass("display");
-
-        $(".helpWrap,.helpInner ul").removeClass("display");
-        $(".helpInner,.helpInner .q2").addClass("display");
-    })
-
-    $(".helpBody li:eq(2)").click(function(){
-        $("header .helpPage").removeClass("display");
-        $("header .helpPage.q3").addClass("display");
-
-        $(".helpWrap,.helpInner ul").removeClass("display");
-        $(".helpInner,.helpInner .q3").addClass("display");
-    })
-
-    $(".helpBody li:eq(3)").click(function(){
-        $("header .helpPage").removeClass("display");
-        $("header .helpPage.q4").addClass("display");
-
-        $(".helpWrap,.helpInner ul").removeClass("display");
-        $(".helpInner,.helpInner .q4").addClass("display");
-    })
-
-    $(".helpBody li:eq(4)").click(function(){
-        $("header .helpPage").removeClass("display");
-        $("header .helpPage.q5").addClass("display");
-
-        $(".helpWrap,.helpInner ul").removeClass("display");
-        $(".helpInner,.helpInner .q5").addClass("display");
-    })
-
-    $(".helpBody li:eq(5)").click(function(){
-        $("header .helpPage").removeClass("display");
-        $("header .helpPage.q6").addClass("display");
-
-        $(".helpWrap,.helpInner ul").removeClass("display");
-        $(".helpInner,.helpInner .q6").addClass("display");
+        $("header .helpPage:eq("+ (n + 1) +"),.helpInner,.helpInner ul:eq("+ n +")")
+        .addClass("display")
+        .siblings().removeClass("display");
     })
 })
 
@@ -459,26 +422,30 @@ $(function(){
 //deposit
 $(function(){
     $(".depList li").click(function(){
-        $(this).addClass("active");
-        $(this).siblings().removeClass("active");
-    })
+        $(this)
+        .addClass("active")
+        .siblings().removeClass("active")
 
-    $(".depList li:eq(0)").click(function(){
-        $(".depContent").removeClass("display");
-        $(".depContent.card").addClass("display");
-    })
-    $(".depList li:eq(1)").click(function(){
-        $(".depContent").removeClass("display");
-        $(".depContent.atm").addClass("display");
+        var n = $(this).index();
+
+        $(".depContent:eq("+ n +")")
+        .addClass("display")
+        .siblings(".depContent").removeClass("display");
+
+        $(".remindBox:eq("+ n +")")
+        .addClass("display")
+        .siblings(".remindBox").removeClass("display");
+
+        $(".depList")
+        .addClass("display");
+
+        $(".remindBox")
     })
 
     $(".depContent.card .check").click(function(){
-        $(".depList,.depContent").removeClass("display");
-        $(".depContent.already").addClass("display");
-    })
-    $(".depContent.already .change").click(function(){
-        $(".depContent").removeClass("display");
-        $(".depList,.depContent.card").addClass("display");
+        $(".depContent.already")
+        .addClass("display")
+        .siblings().removeClass("display");
     })
 })
 

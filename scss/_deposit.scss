@@ -47,6 +47,7 @@
                     flex-direction: column;
                     position: relative;
                     overflow: hidden;
+                    flex-shrink: 0;
 
                     &.active {
                         border-color: $borderColor_3;
@@ -241,6 +242,11 @@
         background: $backgroundColor_8;
         border: solid 1px $borderColor_5;
         border-radius: 5px;
+        display: none;
+
+        &.display {
+            display: block;
+        }
 
         p {
             font-size: 12px;
@@ -256,7 +262,7 @@
                 color: $font-color_13;
             }
 
-            &.sp {
+            .sp {
                 color: $font-color_3;
             }
         }
