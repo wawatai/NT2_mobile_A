@@ -50,6 +50,20 @@
                     }
                 }
 
+                .btn {
+                    width: auto;
+                    height: 28px;
+                    background: $backgroundColor_11;
+                    border-radius: 25px;
+                    color: $font-color_5;
+                    font-size: 3.4vw;
+                    font-weight: bold;
+                    padding: 0 10px;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
                 .medal {
                     width: 20.93vw;
                     height: 30.13vw;

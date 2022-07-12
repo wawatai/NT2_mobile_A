@@ -330,6 +330,16 @@ header .refresh_ic {
   background-size: contain;
 }
 
+.memberWrap .special_ic {
+  background: url("../images/icon/svg/special.svg") no-repeat;
+  background-size: contain;
+}
+
+.memberWrap .partner_ic {
+  background: url("../images/icon/svg/partner.svg") no-repeat;
+  background-size: contain;
+}
+
 .appWrap .download_ic {
   background: url("../images/icon/svg/download.svg") no-repeat;
   background-size: 100%;
@@ -5343,6 +5353,25 @@ html body .vipWrap .topBox .board .content .textBox {
 html body .vipWrap .topBox .board .content .textBox span {
   font-size: 14px;
   color: #595757;
+}
+html body .vipWrap .topBox .board .content .btn {
+  width: auto;
+  height: 28px;
+  background: #ce1515;
+  border-radius: 25px;
+  color: #ffffff;
+  font-size: 3.4vw;
+  font-weight: bold;
+  padding: 0 10px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 html body .vipWrap .topBox .board .content .medal {
   width: 20.93vw;
