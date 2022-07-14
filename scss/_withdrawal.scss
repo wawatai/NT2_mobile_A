@@ -34,17 +34,31 @@
                 padding: 10px 14px;
 
                 .title {
-                    color: $font-color_3;
-                    font-size: 14px;
-                    font-weight: bold;
                     display: flex;
                     align-items: center;
+                    justify-content: space-between;
 
-                    i {
-                        display: block;
-                        margin-left: 10px;
-                        width: 4.27vw;
-                        height: 4.27vw;
+                    span {
+                        color: $font-color_3;
+                        font-size: 14px;
+                        font-weight: bold;
+                        display: flex;
+                        align-items: center;
+
+                        i {
+                            display: block;
+                            margin-left: 10px;
+                            width: 4.27vw;
+                            height: 4.27vw;
+                        }
+                    }
+
+                    .reBtn {
+                        width: auto;
+                        height: 28px;
+                        @include buttonStyle_2;
+                        font-size: 2vw;
+                        padding: 0 10px;
                     }
                 }
 
@@ -263,6 +277,10 @@
             color: $font-color_1;
             font-size: 12px;
             font-weight: bold;
+
+            &.sp {
+                color: $font-color_3;
+            }
         }
 
         input {

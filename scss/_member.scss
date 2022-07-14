@@ -60,11 +60,12 @@
                 }
             }
 
-            .arrow_ic {
-                display: block;
-                width: 1.7vw;
-                height: 3.2vw;
-                transform: scaleX(-1);
+            .innerBtn {
+                width: auto;
+                height: 28px;
+                @include buttonStyle_2;
+                font-size: 2vw;
+                padding: 0 10px;
             }
         }
 

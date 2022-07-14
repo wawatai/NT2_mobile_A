@@ -174,4 +174,11 @@
             padding: 20px 0 8px;
         }
     }
+
+    .applyBtn {
+        width: 80vw;
+        height: 42px;
+        @include buttonStyle_2;
+        margin: 5vw 0;
+    }
 }

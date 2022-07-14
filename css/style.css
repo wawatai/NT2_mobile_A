@@ -3095,6 +3095,23 @@ html body .eventDetail .detailHeader .contentFooter, html body .eventDetail .det
           justify-content: center;
   padding: 20px 0 8px;
 }
+html body .eventDetail .applyBtn {
+  width: 80vw;
+  height: 42px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 1vw;
+  letter-spacing: 1px;
+  margin: 5vw 0;
+}
+html body .eventDetail .applyBtn:active, html body .eventDetail .applyBtn.active {
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
+}
 html body .walletWrap {
   width: 100%;
   min-height: calc(100vh - 92px);
@@ -3709,12 +3726,23 @@ html body .memberWrap .user .info div .date {
   font-weight: bold;
   color: #999999;
 }
-html body .memberWrap .user .info .arrow_ic {
-  display: block;
-  width: 1.7vw;
-  height: 3.2vw;
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
+html body .memberWrap .user .info .innerBtn {
+  width: auto;
+  height: 28px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 1vw;
+  letter-spacing: 1px;
+  font-size: 2vw;
+  padding: 0 10px;
+}
+html body .memberWrap .user .info .innerBtn:active, html body .memberWrap .user .info .innerBtn.active {
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .memberWrap .user .wallet {
   display: -webkit-box;
@@ -7722,6 +7750,17 @@ html body .withWrap .walletBox .gradient .content {
   padding: 10px 14px;
 }
 html body .withWrap .walletBox .gradient .content .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+html body .withWrap .walletBox .gradient .content .title span {
   color: #e11515;
   font-size: 14px;
   font-weight: bold;
@@ -7732,11 +7771,29 @@ html body .withWrap .walletBox .gradient .content .title {
       -ms-flex-align: center;
           align-items: center;
 }
-html body .withWrap .walletBox .gradient .content .title i {
+html body .withWrap .walletBox .gradient .content .title span i {
   display: block;
   margin-left: 10px;
   width: 4.27vw;
   height: 4.27vw;
+}
+html body .withWrap .walletBox .gradient .content .title .reBtn {
+  width: auto;
+  height: 28px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
+  background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);
+  border: solid 1px #b90b0a;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 1vw;
+  letter-spacing: 1px;
+  font-size: 2vw;
+  padding: 0 10px;
+}
+html body .withWrap .walletBox .gradient .content .title .reBtn:active, html body .withWrap .walletBox .gradient .content .title .reBtn.active {
+  background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
+  background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
 html body .withWrap .walletBox .gradient .content .amount {
   font-size: 29px;
@@ -7972,6 +8029,9 @@ html body .withWrap .withContent .smallRemind {
   color: #999999;
   font-size: 12px;
   font-weight: bold;
+}
+html body .withWrap .withContent .smallRemind.sp {
+  color: #e11515;
 }
 html body .withWrap .withContent input {
   width: 100%;
