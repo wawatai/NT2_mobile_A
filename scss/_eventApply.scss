@@ -154,6 +154,10 @@
                     width: calc((100% - 10px) / 2);
                     height: 32px;
 
+                    &.full {
+                        width: 100%;
+                    }
+
                     &.applyBtn {
                         @include buttonStyle_2;
                     }

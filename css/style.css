@@ -5080,6 +5080,9 @@ html body .applyList .listBox .list .btnBox button {
   width: calc((100% - 10px) / 2);
   height: 32px;
 }
+html body .applyList .listBox .list .btnBox button.full {
+  width: 100%;
+}
 html body .applyList .listBox .list .btnBox button.applyBtn {
   background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
   background: linear-gradient(to bottom, #ea232d 0%, #a80d0c 50%, #ea232d 100%);

@@ -307,17 +307,15 @@ $(function(){
 //eventApply
 $(function(){
     $(".eventApplyType li").click(function(){
-        $(this).addClass("active");
-        $(this).siblings().removeClass("active");
-    })
+        $(this)
+        .addClass("active")
+        .siblings().removeClass("active");
 
-    $(".eventApplyType li:eq(0)").click(function(){
-        $(".applyList").addClass("display");
-        $(".applyRecord").removeClass("display");
-    })
-    $(".eventApplyType li:eq(1)").click(function(){
-        $(".applyList").removeClass("display");
-        $(".applyRecord").addClass("display");
+        var n = $(this).index();
+
+        $(".eventList:eq("+ n +")")
+        .addClass("display")
+        .siblings().removeClass("display");
     })
 
     $(".applyRecord .bigBtn button").click(function(){
