@@ -27,6 +27,7 @@
         color: $font-color_5;
         background: $backgroundColor_1;
         position: relative;
+        border-radius: 1.5vw 1.5vw 0 0;
 
         i {
             width: 4.73vw;
@@ -1066,5 +1067,92 @@
                 }
             }
         }
+    }
+    //查詢紅利
+    .pointWindow {
+        width: 92.27vw;
+        height: auto;
+        background: $backgroundColor_2;
+        border-radius: 1.5vw;
+        display: none;
+
+        &.display {
+            display: block;
+        }
+
+        .content {
+            width: 100%;
+            height: auto;
+            max-height: 50vh;
+            padding: 24px 16px;
+            box-sizing: border-box;
+            overflow-y: auto;
+
+            table {
+                width: 100%;
+                height: auto;
+                box-shadow: 0 0 0 1px $borderColor_2;
+
+                tr {
+                    border-bottom: solid 1px $borderColor_2;
+
+                    &:first-child {
+                        border-bottom: solid 1px $borderColor_3; 
+                    }
+                    &:last-child {
+                        border: none;
+                    }
+
+                    th {
+                        vertical-align: middle;
+                        height: 40px;
+                        border-right: solid 1px $borderColor_2;
+
+                        &:last-child {
+                             border: none;
+                            
+                        }
+
+                        p {
+                            font-size: 16px;
+                            font-weight: bold;
+                            color: $font-color_12;
+                        }
+
+                    }
+
+                    td {
+                        width: 30%;
+                        vertical-align: middle;
+                        height: 40px;
+                        border-right: solid 1px $borderColor_2;
+
+                        &:last-child {
+                             border: none;
+                            
+                        }
+
+                        p {
+                            font-size: 16px;
+                            font-weight: bold;
+                            color: $font-color_12;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+            .noData {
+
+                color: $font-color_12;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 10vh;
+            
+            }
+        }   
+
+        
     }
 }
