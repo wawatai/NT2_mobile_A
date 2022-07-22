@@ -112,19 +112,19 @@ $(function(){
         $('.filter,.bettingDetail').addClass('display');
     })
     //查詢紅利彈窗
-    $('.pointWrap  .readMore.1st').click(function(){
+    $('.friendWrap  .readMore.1st').click(function(){
         $('.filter,.pointWindow.1st').addClass('display');
         $('.filter,.pointWindow.1st').siblings().removeClass('display');
     })
-    $('.pointWrap  .readMore.memberData').click(function(){
+    $('.friendWrap  .readMore.memberData').click(function(){
         $('.filter,.pointWindow.memberData').addClass('display');
         $('.filter,.pointWindow.memberData').siblings().removeClass('display');
     })
-    $('.pointWrap  .readMore.2st').click(function(){
+    $('.friendWrap  .readMore.2st').click(function(){
         $('.filter,.pointWindow.2st').addClass('display');
         $('.filter,.pointWindow.2st').siblings().removeClass('display');
     })
-    $('.pointWrap  .readMore.3st').click(function(){
+    $('.friendWrap  .readMore.3st').click(function(){
         $('.filter,.pointWindow.3st').addClass('display');
         $('.filter,.pointWindow.3st').siblings().removeClass('display');
     })

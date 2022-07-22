@@ -6689,7 +6689,7 @@ html body .cardContent ul button:active, html body .cardContent ul button.active
   background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
   background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
-html body .pointWrap {
+html body .friendWrap {
   width: 100%;
   height: calc(100vh - 95px);
   background: #f2f3f3;
@@ -6698,16 +6698,15 @@ html body .pointWrap {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-html body .pointWrap .searchContent {
+html body .friendWrap .searchContent {
   width: 100%;
   height: auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 13px 14px;
   background: #ffffff;
-  margin-bottom: 10px;
 }
-html body .pointWrap .searchContent .top {
+html body .friendWrap .searchContent .top {
   width: 100%;
   height: auto;
   display: -webkit-box;
@@ -6716,17 +6715,17 @@ html body .pointWrap .searchContent .top {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-html body .pointWrap .searchContent .top .helf {
+html body .friendWrap .searchContent .top .helf {
   width: 50%;
 }
-html body .pointWrap .searchContent .top .helf p {
+html body .friendWrap .searchContent .top .helf p {
   margin-bottom: 5px;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 1px;
   color: #000000;
 }
-html body .pointWrap .searchContent .top .helf button {
+html body .friendWrap .searchContent .top .helf button {
   width: 44vw;
   height: 42px;
   background: #ffffff;
@@ -6747,7 +6746,7 @@ html body .pointWrap .searchContent .top .helf button {
           justify-content: space-between;
   font-weight: bold;
 }
-html body .pointWrap .searchContent .top .helf button i {
+html body .friendWrap .searchContent .top .helf button i {
   display: block;
   width: 0;
   height: 0;
@@ -6755,17 +6754,17 @@ html body .pointWrap .searchContent .top .helf button i {
   border-width: 6px 4px 0 4px;
   border-color: #e11515 transparent;
 }
-html body .pointWrap .searchContent .top .full {
+html body .friendWrap .searchContent .top .full {
   width: 100%;
 }
-html body .pointWrap .searchContent .top .full p {
+html body .friendWrap .searchContent .top .full p {
   margin: 10px 0;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 1px;
   color: #000000;
 }
-html body .pointWrap .searchContent .top .full .inputBox {
+html body .friendWrap .searchContent .top .full .inputBox {
   width: 100%;
   height: 42px;
   border: solid 1px #e6e6e6;
@@ -6782,7 +6781,7 @@ html body .pointWrap .searchContent .top .full .inputBox {
   font-size: 16px;
   font-weight: bold;
 }
-html body .pointWrap .searchContent .top .full .inputBox input {
+html body .friendWrap .searchContent .top .full .inputBox input {
   width: auto;
   height: 100%;
   border: none;
@@ -6791,11 +6790,11 @@ html body .pointWrap .searchContent .top .full .inputBox input {
   font-size: 14px;
   font-weight: bold;
 }
-html body .pointWrap .searchContent .top .full .selectBox {
+html body .friendWrap .searchContent .top .full .selectBox {
   width: 100%;
   height: auto;
 }
-html body .pointWrap .searchContent .top .full .selectBox select {
+html body .friendWrap .searchContent .top .full .selectBox select {
   width: 100%;
   height: 42px;
   background-color: #ffffff;
@@ -6813,7 +6812,7 @@ html body .pointWrap .searchContent .top .full .selectBox select {
   border: solid 1px #e6e6e6;
   padding-left: 15px;
 }
-html body .pointWrap .searchContent .date {
+html body .friendWrap .searchContent .date {
   width: 100%;
   height: auto;
   display: -webkit-box;
@@ -6821,7 +6820,7 @@ html body .pointWrap .searchContent .date {
   display: flex;
   margin: 20px 0;
 }
-html body .pointWrap .searchContent .date button {
+html body .friendWrap .searchContent .date button {
   width: 25%;
   height: 38px;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #ffffff), to(#f4f4f4));
@@ -6840,19 +6839,19 @@ html body .pointWrap .searchContent .date button {
       -ms-flex-pack: center;
           justify-content: center;
 }
-html body .pointWrap .searchContent .date button:active, html body .pointWrap .searchContent .date button.active {
+html body .friendWrap .searchContent .date button:active, html body .friendWrap .searchContent .date button.active {
   background: -webkit-gradient(linear, left top, left bottom, from(#c61515), to(#df1515));
   background: linear-gradient(to bottom, #c61515 0%, #df1515 100%);
   color: #ffffff;
   border-color: #b90b0a;
 }
-html body .pointWrap .searchContent .date button:nth-of-type(1) {
+html body .friendWrap .searchContent .date button:nth-of-type(1) {
   border-radius: 5px 0 0 5px;
 }
-html body .pointWrap .searchContent .date button:last-child {
+html body .friendWrap .searchContent .date button:last-child {
   border-radius: 0 5px 5px 0;
 }
-html body .pointWrap .searchContent .check {
+html body .friendWrap .searchContent .check {
   width: 100%;
   height: 42px;
   background: -webkit-gradient(linear, left top, left bottom, from(#ea232d), color-stop(50%, #a80d0c), to(#ea232d));
@@ -6864,18 +6863,18 @@ html body .pointWrap .searchContent .check {
   border-radius: 1vw;
   letter-spacing: 1px;
 }
-html body .pointWrap .searchContent .check:active, html body .pointWrap .searchContent .check.active {
+html body .friendWrap .searchContent .check:active, html body .friendWrap .searchContent .check.active {
   background: -webkit-gradient(linear, left top, left bottom, from(#b90b0a), to(#ea232d));
   background: linear-gradient(to bottom, #b90b0a 0%, #ea232d 100%);
 }
-html body .pointWrap .list {
+html body .friendWrap .list {
   width: 100%;
   height: auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 10px 14px;
 }
-html body .pointWrap .list .noData {
+html body .friendWrap .list .noData {
   display: none;
   width: 100%;
   height: auto;
@@ -6887,10 +6886,10 @@ html body .pointWrap .list .noData {
   text-align: center;
   font-size: 14px;
 }
-html body .pointWrap .list .noData.display {
+html body .friendWrap .list .noData.display {
   display: block;
 }
-html body .pointWrap .list .recordBox {
+html body .friendWrap .list .recordBox {
   display: none;
   width: 100%;
   height: auto;
@@ -6899,10 +6898,10 @@ html body .pointWrap .list .recordBox {
   background: #ffffff;
   margin-bottom: 10px;
 }
-html body .pointWrap .list .recordBox.display {
+html body .friendWrap .list .recordBox.display {
   display: block;
 }
-html body .pointWrap .list .recordBox .title {
+html body .friendWrap .list .recordBox .title {
   width: 100%;
   height: 38px;
   border-bottom: solid 1px #e11515;
@@ -6922,7 +6921,7 @@ html body .pointWrap .list .recordBox .title {
           box-sizing: border-box;
   padding: 0 18px;
 }
-html body .pointWrap .list .recordBox .title .readMore {
+html body .friendWrap .list .recordBox .title .readMore {
   font-size: 13px;
   font-weight: bold;
   background: none;
@@ -6931,14 +6930,14 @@ html body .pointWrap .list .recordBox .title .readMore {
   border-radius: 3px;
   padding: 1px 5px;
 }
-html body .pointWrap .list .recordBox ul {
+html body .friendWrap .list .recordBox ul {
   width: 100%;
   height: auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0 18px;
 }
-html body .pointWrap .list .recordBox ul li {
+html body .friendWrap .list .recordBox ul li {
   width: 100%;
   height: 38px;
   display: -webkit-box;
@@ -6954,15 +6953,119 @@ html body .pointWrap .list .recordBox ul li {
   font-size: 14px;
   font-weight: bold;
 }
-html body .pointWrap .list .recordBox ul li p {
+html body .friendWrap .list .recordBox ul li p {
   font-size: 13px;
 }
-html body .pointWrap .list .recordBox ul li p.num {
+html body .friendWrap .list .recordBox ul li p.num {
   color: #666666;
 }
-html body .pointWrap .list .recordBox ul li p.num.readMore {
+html body .friendWrap .list .recordBox ul li p.num.readMore {
   text-decoration: underline;
   color: #009be4;
+}
+html body .friendWrap .list .recInfo {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  border-radius: 5px;
+  border: solid 1px #e6e6e6;
+  margin-bottom: 10px;
+}
+html body .friendWrap .list .recInfo .lineBox {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+  padding: 16px 70px 16px 16px;
+  margin-bottom: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html body .friendWrap .list .recInfo .lineBox p {
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: right;
+}
+html body .friendWrap .list .recInfo .lineBox .copy {
+  width: auto;
+  height: 30px;
+  position: absolute;
+  right: 16px;
+  top: 53%;
+  padding: 1px 5px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: #ffffff;
+  border: solid 1px #b90b0a;
+  font-size: 13px;
+  font-weight: bold;
+  color: #b90b0a;
+  border-radius: 3px;
+}
+html body .friendWrap .list .recInfo .lineBox img {
+  width: 10vh;
+  height: 10vh;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+html body .friendWrap .list .recInfo .lineBox.sp {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 16px;
+}
+html body .friendWrap .list .recInfo label {
+  width: 60px;
+  height: auto;
+  text-align: left;
+  line-height: 20px;
+  margin-right: 47px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+html body .friendWrap .list .recInfo input {
+  width: 100%;
+  height: 41px;
+}
+html body .friendWrap .list .eventInfo {
+  height: auto;
+  background: #ffffff;
+  border-radius: 5px;
+  border: solid 1px #e6e6e6;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+html body .friendWrap .list .eventInfo .mainTitle {
+  font-size: 20px;
+  color: #e11515;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+html body .friendWrap .list .eventInfo .textBox {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+html body .friendWrap .list .eventInfo .textBox .content {
+  font-size: 14px;
+  line-height: 30px;
+}
+html body .friendWrap .list .eventInfo .textBox .content ul {
+  margin-left: 15px;
+}
+html body .friendWrap .list .eventInfo .textBox .content ul li {
+  list-style: decimal;
+  line-height: 30px;
 }
 html body .bettingWrap {
   width: 100%;

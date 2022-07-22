@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="../js/slick-1.8.1/slick/slick-theme.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="../js/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="../js/javascript.js"></script>
+    <link rel="shortcut icon" href="../images/myIco.ico" type="image/x-icon">
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--content-->
+        <div class="content">
+            <i class="back_arrow" onclick="window.location.href='./member.html'"></i>
+            <div class="title">推薦好友</div>
+        </div>
+    </header>
+    <!--main-->
+    <main>
+        <!--推薦好友-->
+        <div class="friendWrap">
+            <div class="searchContent">
+                <div class="top">
+                    <div class="full">
+                        <p>選擇日期</p>
+                        <div class="inputBox">
+                            <input type="date">
+                            ~
+                            <input type="date">
+                        </div>
+                    </div>
+                </div>
+                <div class="date">
+                    <button>昨天</button>
+                    <button class="active">今天</button>
+                    <button>本週</button>
+                    <button>本月</button>
+                </div>
+                <button class="check">查詢</button>
+            </div>
+            <div class="list">
+                <p class="noData">目前無資料</p>
+                <div class="recordBox display">
+                    <p class="title">
+                        好友名單
+                        <button class="readMore 1st">查看詳情</button>
+                    </p>
+                    <ul>
+                        <li>
+                            人數
+                            <p class="num readMore memberData">1</p>
+                        </li>
+                        <li>
+                            有效投注
+                            <p class="num win">256.0000</p>
+                        </li>
+                        <li>
+                            預估紅利
+                            <p class="num win">1.0060</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="recInfo">
+                    <div class="lineBox">
+                        <label>邀請碼</label>
+                        <p>P5ee954a</p>
+                        <button class="copy">複製</button>
+                    </div>
+                    <div class="lineBox">
+                        <label>推廣網址</label>
+                        <input class="sp" type="text" value="https://mbfe.op8899.net/#/register/?code=M54ea858">
+                        <button class="copy">複製</button>
+                    </div>
+                    <div class="lineBox sp">
+                        <label>推廣網址QRCODE</label>
+                        <img src="../images/qrcode.png">
+                    </div>
+                </div>
+                <div class="eventInfo">
+                    <p class="mainTitle">推薦好友</p>
+                    <div class="textBox">
+                        <p class="mainTitle">活動說明:</p>
+                        <p class="content">會員透過分享上方的【推廣網址】、【推廣網址QRCODE】，邀請好友註冊成為通博會員。會員每日將可獲得推薦好友昨日有效投注量千分之一的回饋獎金。推薦的好友越多、獲得的獎金越多。</p>
+                    </div>
+                    <div class="textBox">
+                        <p class="mainTitle">活動規則:</p>
+                        <div class="content">
+                            <ul class="rule">
+                                <li>推薦好友獎勵回饋金將於隔日X:00前自動派發至會員帳戶中，獎金1倍流水即可提款。獎金需累積達1元以上得以派發。</li>
+                                <li>為保證優惠活動的正常進行，任何形式的非正規投注，非正規存提款，及申請資料的姓名/電話/信箱/銀行帳戶/IP須為真實且唯一，如有發現虛假資料將取消優惠及盈利。</li>
+                                <li>本優惠獎金僅適用於娛樂性玩家，不得假借他人身份申請，任何團隊或個人以無風險投注進行套利行為本公司有權沒收獎金及盈利並凍結帳戶。</li>
+                                <li>對於投注內容異常或疑似對押套利之投注模式，本公司有權要求會員證明其身分，包含提供證明文件、驗證身份等。若無法證明為本人，本公司將終止會員服務、凍結資金及永久封號。</li>
+                                <li>參與此優惠而造成的任何爭議或異議，通博保留此活動的最終解釋權。
+                                    <p class="mainTitle">申請玩家必須同意通博規則和聲明</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+        <ul>
+            <li onclick="window.location.href='./index_inner.html'">
+                <i class="menu_ic"></i>
+                <p>首頁</p>
+            </li>
+            <li onclick="window.location.href='./event.html'">
+                <i class="event_ic"></i>
+                <p>優惠</p>
+            </li>
+            <li onclick="window.location.href='./wallet.html'">
+                <i class="wallet_ic"></i>
+                <p>存轉提</p>
+            </li>
+            <li onclick="window.location.href='./help_often_contact.html'">
+                <i class="service_ic"></i>
+                <p>客服</p>
+            </li>
+            <li onclick="window.location.href='./member.html'">
+                <i class="center_ic"></i>
+                <p>會員中心</p>
+            </li>
+        </ul>
+    </footer>
+    <!--彈窗-->
+    <div class="filter">
+        <!--帳戶平台彈窗-->
+        <div class="jumpWindow accWindow">
+            <div class="title">
+                帳戶
+                <i class="close"></i>
+            </div>
+            <div class="content">
+                <div class="bigBox">
+                    <button class="active">全帳戶</button>
+                </div>
+            </div>
+        </div>
+        <div class="jumpWindow platWindow">
+            <div class="title">
+                平台
+                <i class="close"></i>
+            </div>
+            <div class="content">
+                <div class="bigBox">
+                    <button class="active">全平台</button>
+                </div>
+                <div class="smallBox">
+                    <button>BNG娛樂</button>
+                    <button>BNG娛樂</button>
+                    <button>BNG娛樂</button>
+                    <button>BNG娛樂</button>
+                    <button>BNG娛樂</button>
+                    <button>BNG娛樂</button>
+                    <button>BNG娛樂</button>
+                    <button>BNG娛樂</button>
+                    <button>BNG娛樂</button>
+                    <button>BNG娛樂</button>
+                </div>
+            </div>
+        </div>
+        <!--紅利查詢-->
+        <!-- 一代會員 -->
+        <div class="jumpWindow pointWindow 1st ">
+            <div class="title">
+                <p>一代會員 - 詳情</p>
+                <i class="close"></i>
+            </div>
+            <div class="content">
+                <table>
+                    <tr>
+                        <th>
+                            <p>會員帳號</p>
+                        </th>
+                        <th>
+                            <p>會員名稱</p>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>xxoo08</p>
+                        </td>
+                        <td>
+                            <p>蚵仔煎</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>lo0026</p>
+                        </td>
+                        <td>
+                            <p>Shado</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>tete17</p>
+                        </td>
+                        <td>
+                            <p>停電</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>sn778888</p>
+                        </td>
+                        <td>
+                            <p>-</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-- 一代會員/明細 -->
+        <div class="jumpWindow pointWindow memberData">
+            <div class="title">
+                <p>一代會員 - 明細</p>
+                <i class="close"></i>
+            </div>
+            <div class="content">
+                <table>
+                    <tr>
+                        <th>
+                            <p>會員帳號</p>
+                        </th>
+                        <th>
+                            <p>有效投注</p>
+                        </th>
+                        <th>
+                            <p>預估紅利</p>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>xxoo08</p>
+                        </td>
+                        <td>
+                            <p>13440.0000</p>
+                        </td>
+                        <td>
+                            <p>26.8800</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>lo0026</p>
+                        </td>
+                        <td>
+                            <p>200.0000</p>
+                        </td>
+                        <td>
+                            <p>0.4000</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>tete17</p>
+                        </td>
+                        <td>
+                            <p>15000.0000</p>
+                        </td>
+                        <td>
+                            <p>30.0000</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>sn778888</p>
+                        </td>
+                        <td>
+                            <p>3000.0000</p>
+                        </td>
+                        <td>
+                            <p>6.0000</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
