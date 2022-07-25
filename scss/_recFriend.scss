@@ -221,7 +221,7 @@
                 justify-content: flex-start;
                 position: relative;
                 padding: 16px 70px 16px 16px;
-                margin-bottom: 20px;
+                margin-bottom: 1px;
                 box-sizing: border-box;
                 
 
@@ -268,7 +268,6 @@
                 input {
                     width: 43%;
                     height: auto;
-                   //@include inputStyle_3;
                 }
 
             
@@ -279,8 +278,7 @@
             background: $backgroundColor_2;
             border-radius: 5px;
             border: solid 1px $borderColor_1;
-            padding: 15px;
-            margin-bottom: 10px;
+            padding: 30px 10px;
 
             .mainTitle {
                 font-size: 20px;

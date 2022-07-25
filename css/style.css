@@ -6985,7 +6985,7 @@ html body .friendWrap .list .recInfo .lineBox {
           justify-content: flex-start;
   position: relative;
   padding: 16px 70px 16px 16px;
-  margin-bottom: 20px;
+  margin-bottom: 1px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -7042,8 +7042,7 @@ html body .friendWrap .list .eventInfo {
   background: #ffffff;
   border-radius: 5px;
   border: solid 1px #e6e6e6;
-  padding: 15px;
-  margin-bottom: 10px;
+  padding: 30px 10px;
 }
 html body .friendWrap .list .eventInfo .mainTitle {
   font-size: 20px;
