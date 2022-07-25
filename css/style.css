@@ -6989,7 +6989,7 @@ html body .friendWrap .list .recInfo .lineBox {
           box-sizing: border-box;
 }
 html body .friendWrap .list .recInfo .lineBox p {
-  width: 43%;
+  width: 60%;
   font-size: 14px;
   font-weight: bold;
   text-align: right;
@@ -7011,8 +7011,8 @@ html body .friendWrap .list .recInfo .lineBox .copy {
   border-radius: 3px;
 }
 html body .friendWrap .list .recInfo .lineBox img {
-  width: 10vh;
-  height: 10vh;
+  width: 18vh;
+  height: 18vh;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -7028,12 +7028,12 @@ html body .friendWrap .list .recInfo label {
   text-align: left;
   line-height: 30px;
   display: inline;
-  margin-right: 92px;
+  margin-right: 50px;
   font-size: 14px;
   font-weight: bold;
 }
 html body .friendWrap .list .recInfo input {
-  width: 43%;
+  width: 60%;
   height: auto;
 }
 html body .friendWrap .list .eventInfo {
