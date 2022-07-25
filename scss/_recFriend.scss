@@ -304,17 +304,18 @@
                     font-size: 14px;
                     line-height: 30px;
 
+                    span {
+                        color: $font-color_3;
+                        font-size: 14px;
+                        font-weight: bold;
+                    }
+
                     ul {
                         margin-left: 15px;
                         li {
                             list-style:decimal;
                             line-height: 30px;
                         }
-                    }
-
-                    span {
-                        color: $font-color_3;
-                        font-weight: bold;
                     }
                 }
             }

@@ -7066,16 +7066,17 @@ html body .friendWrap .list .eventInfo .textBox .content {
   font-size: 14px;
   line-height: 30px;
 }
+html body .friendWrap .list .eventInfo .textBox .content span {
+  color: #e11515;
+  font-size: 14px;
+  font-weight: bold;
+}
 html body .friendWrap .list .eventInfo .textBox .content ul {
   margin-left: 15px;
 }
 html body .friendWrap .list .eventInfo .textBox .content ul li {
   list-style: decimal;
   line-height: 30px;
-}
-html body .friendWrap .list .eventInfo .textBox .content span {
-  color: #e11515;
-  font-weight: bold;
 }
 html body .bettingWrap {
   width: 100%;

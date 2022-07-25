@@ -111,7 +111,7 @@ $(function(){
         $('.jumpWindow').removeClass('display');
         $('.filter,.bettingDetail').addClass('display');
     })
-    //查詢紅利彈窗
+    //推薦好友彈窗
     $('.friendWrap  .readMore.1st').click(function(){
         $('.filter,.pointWindow.1st').addClass('display');
         $('.filter,.pointWindow.1st').siblings().removeClass('display');
@@ -119,14 +119,6 @@ $(function(){
     $('.friendWrap  .readMore.memberData').click(function(){
         $('.filter,.pointWindow.memberData').addClass('display');
         $('.filter,.pointWindow.memberData').siblings().removeClass('display');
-    })
-    $('.friendWrap  .readMore.2st').click(function(){
-        $('.filter,.pointWindow.2st').addClass('display');
-        $('.filter,.pointWindow.2st').siblings().removeClass('display');
-    })
-    $('.friendWrap  .readMore.3st').click(function(){
-        $('.filter,.pointWindow.3st').addClass('display');
-        $('.filter,.pointWindow.3st').siblings().removeClass('display');
     })
 })
 //請先登入
