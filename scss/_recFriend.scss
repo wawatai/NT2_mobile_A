@@ -299,7 +299,12 @@
 
                 .content {
                     font-size: 14px;
-                    line-height: 30px;
+                    line-height: 18px;
+                    margin-bottom: 10px;
+
+                    &:last-child {
+                        margin: 0;
+                    }
 
                     span {
                         color: $font-color_3;
@@ -309,9 +314,15 @@
 
                     ul {
                         margin-left: 15px;
+
                         li {
                             list-style:decimal;
-                            line-height: 30px;
+                            line-height: 18px;
+                            margin-bottom: 10px;
+
+                            &:last-child {
+                                margin: 0;
+                            }
                         }
                     }
                 }

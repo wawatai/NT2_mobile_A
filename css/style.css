@@ -1346,7 +1346,7 @@ html body .homeCenter .gameBox li .fixBox {
   height: 100%;
   left: 0;
   top: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: #00000066;
   border-radius: 5px;
 }
 html body .homeCenter .gameBox li .fixBox .title {
@@ -1449,7 +1449,7 @@ html body .filter {
   position: fixed;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: #00000066;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2925,7 +2925,7 @@ html body .slotWrap .gameList {
   overflow-y: auto;
 }
 html body .slotWrap .gameList .gameBox {
-  width: calc((96vw - 30px) / 2);
+  width: calc((96vw - 30px)/2);
   height: 175px;
   border: solid 1px #9a9b9b;
   border-radius: 1.5vw;
@@ -3107,8 +3107,8 @@ html body .eventDetail .detailHeader, html body .eventDetail .detailContent {
   margin-top: 10px;
   background: #ffffff;
   border-radius: 1.5vw;
-  -webkit-box-shadow: 0 0 5px 0 rgba(200, 200, 200, 0.5019607843);
-          box-shadow: 0 0 5px 0 rgba(200, 200, 200, 0.5019607843);
+  -webkit-box-shadow: 0 0 5px 0 #c8c8c880;
+          box-shadow: 0 0 5px 0 #c8c8c880;
 }
 html body .eventDetail .detailHeader ul .title, html body .eventDetail .detailContent ul .title {
   width: 100%;
@@ -3214,8 +3214,8 @@ html body .walletWrap .walletBox .gradient .content {
   margin: 0 auto 16px;
   background: #ffffff;
   border-radius: 1.5vw;
-  -webkit-box-shadow: 0 0 5px 0 rgba(200, 200, 200, 0.5019607843);
-          box-shadow: 0 0 5px 0 rgba(200, 200, 200, 0.5019607843);
+  -webkit-box-shadow: 0 0 5px 0 #c8c8c880;
+          box-shadow: 0 0 5px 0 #c8c8c880;
 }
 html body .walletWrap .walletBox .gradient .content .amount {
   width: 100%;
@@ -3446,8 +3446,8 @@ html body .walletWrap .walletList .forHistory .pointBox {
   padding-bottom: 30px;
   margin: 0 auto 14px;
   background: #ffffff;
-  -webkit-box-shadow: 0 0 5px 0 rgba(200, 200, 200, 0.5019607843);
-          box-shadow: 0 0 5px 0 rgba(200, 200, 200, 0.5019607843);
+  -webkit-box-shadow: 0 0 5px 0 #c8c8c880;
+          box-shadow: 0 0 5px 0 #c8c8c880;
 }
 html body .walletWrap .walletList .forActive .pointBox .smallTitle,
 html body .walletWrap .walletList .forHistory .pointBox .smallTitle {
@@ -4569,7 +4569,7 @@ html body .joinUsWrap .content .contentUl .items:nth-of-type(3) ul li .box .bott
   color: #ffffff;
   font-size: 13px;
   font-weight: bold;
-  background: rgba(0, 0, 0, 0.4);
+  background: #00000066;
 }
 html body .joinUsWrap .content .contentUl .items:nth-of-type(3) ul li .box .bottom p {
   margin: 0;
@@ -4833,8 +4833,8 @@ html body .helpWrap .helpBody ul li {
           justify-content: center;
   background: #ffffff;
   border-radius: 5px;
-  -webkit-box-shadow: 0 0 5px 0 rgba(200, 200, 200, 0.5019607843);
-          box-shadow: 0 0 5px 0 rgba(200, 200, 200, 0.5019607843);
+  -webkit-box-shadow: 0 0 5px 0 #c8c8c880;
+          box-shadow: 0 0 5px 0 #c8c8c880;
   margin-bottom: 15px;
   font-size: 14px;
   font-weight: bold;
@@ -4874,8 +4874,8 @@ html body .helpInner ul li .title {
   width: 92.27vw;
   height: 52px;
   background: #ffffff;
-  -webkit-box-shadow: 0 0 5px 0 rgba(200, 200, 200, 0.5019607843);
-          box-shadow: 0 0 5px 0 rgba(200, 200, 200, 0.5019607843);
+  -webkit-box-shadow: 0 0 5px 0 #c8c8c880;
+          box-shadow: 0 0 5px 0 #c8c8c880;
   border-radius: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5352,8 +5352,8 @@ html body .applyRecord .reviewBody .recordBox {
   margin-bottom: 10px;
   background: #ffffff;
   border-radius: 5px;
-  -webkit-box-shadow: 0 0 5px 0 rgba(200, 200, 200, 0.5019607843);
-          box-shadow: 0 0 5px 0 rgba(200, 200, 200, 0.5019607843);
+  -webkit-box-shadow: 0 0 5px 0 #c8c8c880;
+          box-shadow: 0 0 5px 0 #c8c8c880;
 }
 html body .applyRecord .reviewBody .recordBox.display {
   display: block;
@@ -5849,8 +5849,8 @@ html body .vipDetail .lvWrap .list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-shadow: 0 0 5px 0 rgba(200, 200, 200, 0.5019607843);
-          box-shadow: 0 0 5px 0 rgba(200, 200, 200, 0.5019607843);
+  -webkit-box-shadow: 0 0 5px 0 #c8c8c880;
+          box-shadow: 0 0 5px 0 #c8c8c880;
   border-radius: 5px;
   overflow: hidden;
   margin-bottom: 15px;
@@ -7062,7 +7062,11 @@ html body .friendWrap .list .eventInfo .textBox .subTitle {
 }
 html body .friendWrap .list .eventInfo .textBox .content {
   font-size: 14px;
-  line-height: 30px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+html body .friendWrap .list .eventInfo .textBox .content:last-child {
+  margin: 0;
 }
 html body .friendWrap .list .eventInfo .textBox .content span {
   color: #e11515;
@@ -7074,7 +7078,11 @@ html body .friendWrap .list .eventInfo .textBox .content ul {
 }
 html body .friendWrap .list .eventInfo .textBox .content ul li {
   list-style: decimal;
-  line-height: 30px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+html body .friendWrap .list .eventInfo .textBox .content ul li:last-child {
+  margin: 0;
 }
 html body .bettingWrap {
   width: 100%;
@@ -7689,8 +7697,8 @@ html body .transWrap .wallet {
   padding: 12px 15px 10px;
   border-radius: 5px;
   background: #ffffff;
-  -webkit-box-shadow: 0 0 5px 0 rgba(200, 200, 200, 0.5019607843);
-          box-shadow: 0 0 5px 0 rgba(200, 200, 200, 0.5019607843);
+  -webkit-box-shadow: 0 0 5px 0 #c8c8c880;
+          box-shadow: 0 0 5px 0 #c8c8c880;
   margin: 0 auto 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7897,8 +7905,8 @@ html body .transWrap .forActive .pointBox {
   padding-bottom: 30px;
   margin: 0 auto 14px;
   background: #ffffff;
-  -webkit-box-shadow: 0 0 5px 0 rgba(200, 200, 200, 0.5019607843);
-          box-shadow: 0 0 5px 0 rgba(200, 200, 200, 0.5019607843);
+  -webkit-box-shadow: 0 0 5px 0 #c8c8c880;
+          box-shadow: 0 0 5px 0 #c8c8c880;
 }
 html body .transWrap .forActive .pointBox .smallTitle {
   display: -webkit-box;
@@ -8199,8 +8207,8 @@ html body .withWrap .walletBox .gradient .content {
   margin: 0 auto 16px;
   background: #ffffff;
   border-radius: 5px;
-  -webkit-box-shadow: 0 0 5px 0 rgba(200, 200, 200, 0.5019607843);
-          box-shadow: 0 0 5px 0 rgba(200, 200, 200, 0.5019607843);
+  -webkit-box-shadow: 0 0 5px 0 #c8c8c880;
+          box-shadow: 0 0 5px 0 #c8c8c880;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
